@@ -1,7 +1,0 @@
-# MT-tgt global test eval yaml (val/test -> global_test)
-train: /root/autodl-tmp/dataset/MT-tgt-split/MT-tgt_global_test/images
-val: /root/autodl-tmp/dataset/MT-tgt-split/MT-tgt_global_test/images
-test: /root/autodl-tmp/dataset/MT-tgt-split/MT-tgt_global_test/images
-nc: 6
-names: ['chamfer', 'multifaceted', 'bump', 'impurity', 'crack', 'grind']
-scenario: global_test

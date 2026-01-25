@@ -19,16 +19,35 @@ PROMPTS_PATH = pathlib.Path(
 )
 OUTPUT_DIR = SCRIPT_DIR
 
+HF_HOME = pathlib.Path(os.environ.get("HF_HOME", "/root/.cache/huggingface"))
+HF_HUB_CACHE = pathlib.Path(os.environ.get("HF_HUB_CACHE", str(HF_HOME / "hub")))
+
 # Local cached model snapshot (offline).
 MODEL_SNAPSHOT = pathlib.Path(
-    "/root/.cache/huggingface/hub/models--unsloth--qwen2-7b-bnb-4bit/snapshots/1239d1b09cba92f486e612d73b18c59ea6f8af3a"
+    os.environ.get(
+        "MODEL_SNAPSHOT",
+        str(
+            HF_HUB_CACHE
+            / "models--unsloth--qwen2-7b-bnb-4bit"
+            / "snapshots"
+            / "1239d1b09cba92f486e612d73b18c59ea6f8af3a"
+        ),
+    )
 )
 
+STEP2_ROOT = SCRIPT_DIR.parents[3]
+DEFAULT_ADAPTER_ROOT = (
+    STEP2_ROOT
+    / "Experiments"
+    / "exp13_Llama_model"
+    / "outputs"
+    / "rec_seed1088_qwen_g0_g4_b1p5"
+)
 ADAPTER_POINTWISE = pathlib.Path(
-    "/root/autodl-tmp/ICML/STEP2/exp13_Llama_model/outputs/rec_seed1088_qwen_g0_g4_b1p5/adapter_g4_pointwise"
+    os.environ.get("ADAPTER_POINTWISE", str(DEFAULT_ADAPTER_ROOT / "adapter_g4_pointwise"))
 )
 ADAPTER_SET_AWARE = pathlib.Path(
-    "/root/autodl-tmp/ICML/STEP2/exp13_Llama_model/outputs/rec_seed1088_qwen_g0_g4_b1p5/adapter_g4_set_aware"
+    os.environ.get("ADAPTER_SET_AWARE", str(DEFAULT_ADAPTER_ROOT / "adapter_g4_set_aware"))
 )
 
 OUT_POINTWISE = OUTPUT_DIR / "pointwise_g4.jsonl"

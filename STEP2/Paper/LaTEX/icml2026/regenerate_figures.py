@@ -16,10 +16,13 @@ import numpy as np
 from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
+EXPERIMENTS_ROOT = ROOT / "Experiments"
+METHODS_ROOT = ROOT / "Methods"
 FIG_DIR = ROOT / "Paper" / "LaTEX" / "icml2026" / "Figures"
 
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+for path in [EXPERIMENTS_ROOT, METHODS_ROOT, ROOT]:
+    if str(path) not in sys.path:
+        sys.path.insert(0, str(path))
 
 # Import plotting helpers from each experiment
 from exp1_bias_sources.plot_exp1 import load_series_from_csv, plot_from_series
@@ -79,7 +82,7 @@ def read_csv(path: pathlib.Path) -> Dict[str, List[float]]:
 
 # ---- Exp1 ----
 def regenerate_exp1() -> None:
-    exp1_dir = ROOT / "exp1_bias_sources" / "results"
+    exp1_dir = EXPERIMENTS_ROOT / "exp1_bias_sources" / "results"
     tasks = [
         ("exp1_1.1_const", exp1_dir / "exp1_1.1_const.csv"),
         ("exp1_1.2_ridge", exp1_dir / "exp1_1.2_ridge.csv"),
@@ -100,7 +103,7 @@ def regenerate_exp1() -> None:
 
 # ---- Exp2 ----
 def regenerate_exp2() -> None:
-    res_dir = ROOT / "exp2_bias_sensitivity" / "results"
+    res_dir = EXPERIMENTS_ROOT / "exp2_bias_sensitivity" / "results"
     # 直接使用已有绘图输出
     for name in [
         "exp2_2.1_bias_vs_error.png",
@@ -120,10 +123,10 @@ def regenerate_exp2() -> None:
 
 # ---- Exp3 ----
 def regenerate_exp3() -> None:
-    const = read_csv(ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_const.csv")
-    ridge = read_csv(ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_ridge.csv")
-    bayes_n5 = read_csv(ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_bayes_n5.csv")
-    bayes_n100 = read_csv(ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_bayes.csv")
+    const = read_csv(EXPERIMENTS_ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_const.csv")
+    ridge = read_csv(EXPERIMENTS_ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_ridge.csv")
+    bayes_n5 = read_csv(EXPERIMENTS_ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_bayes_n5.csv")
+    bayes_n100 = read_csv(EXPERIMENTS_ROOT / "exp3_data_efficiency" / "results" / "exp3_data_eff_bayes.csv")
 
     plot_breaking_floor(const, FIG_DIR / "exp3_fig_A_breaking_floor.png")
     plot_data_efficiency(ridge, FIG_DIR / "exp3_fig_B_data_efficiency.png")
@@ -164,15 +167,15 @@ def _load_exp42_metrics(path: pathlib.Path) -> Dict[str, Dict[str, List[float]]]
 
 
 def regenerate_exp4() -> None:
-    metrics41 = _load_exp41_metrics(ROOT / "exp4_bias_correction_visualization" / "results" / "exp4_4.1_base.csv")
+    metrics41 = _load_exp41_metrics(EXPERIMENTS_ROOT / "exp4_bias_correction_visualization" / "results" / "exp4_4.1_base.csv")
     plot_exp41(metrics41, target_norm=0.5, out_dir=FIG_DIR, n_seeds=8)
     plot_exp41_enhance(metrics41, target_norm=0.5, out_dir=FIG_DIR, n_seeds=8)
 
-    metrics42 = _load_exp42_metrics(ROOT / "exp4_bias_correction_visualization" / "results" / "exp4_4.2_ridge.csv")
+    metrics42 = _load_exp42_metrics(EXPERIMENTS_ROOT / "exp4_bias_correction_visualization" / "results" / "exp4_4.2_ridge.csv")
     plot_exp42(metrics42, out_dir=FIG_DIR, n_seeds=8)
     plot_exp42_phase(metrics42, out_dir=FIG_DIR, n_seeds=8)
 
-    bayes_csv = ROOT / "exp4_bias_correction_visualization" / "results" / "exp4_4.3_bayes_scatter.csv"
+    bayes_csv = EXPERIMENTS_ROOT / "exp4_bias_correction_visualization" / "results" / "exp4_4.3_bayes_scatter.csv"
     if bayes_csv.exists():
         data = read_csv(bayes_csv)
         x_eval = np.array(data["x"])
@@ -209,7 +212,7 @@ def _load_exp5_series(result_dir: pathlib.Path, dims: List[int]) -> Dict[int, Di
 
 
 def regenerate_exp5() -> None:
-    result_dir = ROOT / "exp5_high_dim_scalability" / "results"
+    result_dir = EXPERIMENTS_ROOT / "exp5_high_dim_scalability" / "results"
     tail_stats = _load_exp5_tails(result_dir / "exp5_tail_summary.csv")
     dims = sorted(tail_stats.keys())
     plot_tail_vs_dim(dims, tail_stats, FIG_DIR / "exp5_tail_vs_dim.png", n_seeds=8, methods=EXP5_METHODS)
@@ -259,7 +262,7 @@ def _load_exp6_tails(result_dir: pathlib.Path, scenarios: List[str]) -> Dict[str
 
 
 def regenerate_exp6() -> None:
-    result_dir = ROOT / "exp6_arch_ablation" / "results"
+    result_dir = EXPERIMENTS_ROOT / "exp6_arch_ablation" / "results"
     scenarios = ["bayes", "ridge", "complex"]
     all_series = _load_exp6_series(result_dir, scenarios)
     tails = _load_exp6_tails(result_dir, scenarios)
@@ -305,10 +308,10 @@ def _load_exp7_stats(path: pathlib.Path) -> Dict[str, Dict[str, List[float]]]:
 
 
 def regenerate_exp7() -> None:
-    stats = _load_exp7_stats(ROOT / "exp7_recursive_regression" / "results" / "exp7_trajectories.csv")
+    stats = _load_exp7_stats(EXPERIMENTS_ROOT / "exp7_recursive_regression" / "results" / "exp7_trajectories.csv")
     plot_exp7_series(stats, FIG_DIR, n_seeds=3)
     # variance/attention visuals from exp7_variance_attention
-    va_dir = ROOT / "exp7_variance_attention" / "results"
+    va_dir = EXPERIMENTS_ROOT / "exp7_variance_attention" / "results"
     copy_if_exists(va_dir / "exp7_attention_maps.png", FIG_DIR / "exp7_attention_maps.png")
     copy_if_exists(va_dir / "exp7_tsne_latent.png", FIG_DIR / "exp7_tsne_latent.png")
     copy_if_exists(va_dir / "exp7_response_curve.png", FIG_DIR / "exp7_response_curve.png")
@@ -341,8 +344,8 @@ def _load_exp8_stats(path: pathlib.Path) -> Dict[str, Dict[str, List[float]]]:
 
 
 def regenerate_exp8() -> None:
-    stats = _load_exp8_stats(ROOT / "exp8_mnist_recursive" / "results" / "exp8_trajectories.csv")
-    res_dir = ROOT / "exp8_mnist_recursive" / "results"
+    stats = _load_exp8_stats(EXPERIMENTS_ROOT / "exp8_mnist_recursive" / "results" / "exp8_trajectories.csv")
+    res_dir = EXPERIMENTS_ROOT / "exp8_mnist_recursive" / "results"
     plot_exp8_series(stats, res_dir, n_seeds=3)
     copy_if_exists(res_dir / "exp8_curves.png", FIG_DIR / "exp8_curves.png")
     # Grids
@@ -359,17 +362,23 @@ def regenerate_exp8() -> None:
 def regenerate_exp9() -> None:
     # Use the latest reproducible Exp9 setting used in the paper text:
     # baseline_balanced vs set_aware (v3g), both under meta clean-val + alpha=0.5.
-    results_dir = ROOT / "exp9_cifar10_setaware"
-    baseline_dir = ROOT / "exp9_cifar10_setaware" / "results_meta_balance_alpha05_baseline_balanced_train_holdout_cleanval"
-    setaware_dir = ROOT / "exp9_cifar10_setaware" / "results_meta_balance_alpha05_setaware_tuned_v3g"
-    pointwise_dir = ROOT / "exp9_cifar10_setaware" / "results_meta_balance_alpha05_baseline_score_topk_train_holdout_cleanval"
-    diversity_dir = ROOT / "exp9_cifar10_setaware" / "results_meta_balance_alpha05_diversity_gpu"
+    results_dir = EXPERIMENTS_ROOT / "exp9_cifar10_setaware"
+    baseline_dir = EXPERIMENTS_ROOT / "exp9_cifar10_setaware" / "results_meta_balance_alpha05_baseline_balanced_train_holdout_cleanval"
+    setaware_dir = EXPERIMENTS_ROOT / "exp9_cifar10_setaware" / "results_meta_balance_alpha05_setaware_tuned_v3g"
+    pointwise_dir = EXPERIMENTS_ROOT / "exp9_cifar10_setaware" / "results_meta_balance_alpha05_baseline_score_topk_train_holdout_cleanval"
+    diversity_dir = (
+        EXPERIMENTS_ROOT
+        / "Total_results"
+        / "Tables"
+        / "exp9_cifar10_setaware"
+        / "results_meta_balance_alpha05_diversity_gpu"
+    )
     baseline_method = "baseline_balanced"
     setaware_method = "set_aware"
     pointwise_method = "baseline_score_topk"
     # Fallback to Total_results meta-balance dirs if paper paths are missing.
     if not baseline_dir.exists() or not list(baseline_dir.glob("exp9_seed*_merged.csv")):
-        fallback_base = ROOT / "Total_results" / "Tables" / "exp9_cifar10_setaware"
+        fallback_base = EXPERIMENTS_ROOT / "Total_results" / "Tables" / "exp9_cifar10_setaware"
         fallback_baseline = fallback_base / "results_meta_balance_alpha05_baseline_balanced_train_holdout_cleanval"
         fallback_setaware = fallback_base / "results_meta_balance_alpha05_setaware_tuned_v3g"
         fallback_pointwise = fallback_base / "results_meta_balance_alpha05_baseline_score_topk_train_holdout_cleanval"
@@ -466,10 +475,10 @@ def regenerate_exp9() -> None:
 
 def regenerate_exp11() -> None:
     # Prefer streaming GPT-2 results used in the paper text; fall back to dphi1 if missing.
-    results_root = ROOT / "Total_results" / "Tables" / "exp11_gpt2_model" / "Results_streaming"
+    results_root = EXPERIMENTS_ROOT / "Total_results" / "Tables" / "exp11_gpt2_model" / "Results_streaming"
     if not (results_root.exists() and list(results_root.glob("*/*metrics_diversity_ppl.json"))):
-        results_root = ROOT / "exp11_gpt2_model" / "Results" / "dphi1"
-        alt_root = ROOT / "Total_results" / "Tables" / "exp11_gpt2_model" / "Results" / "dphi1"
+        results_root = EXPERIMENTS_ROOT / "exp11_gpt2_model" / "Results" / "dphi1"
+        alt_root = EXPERIMENTS_ROOT / "Total_results" / "Tables" / "exp11_gpt2_model" / "Results" / "dphi1"
         if alt_root.exists() and list(alt_root.glob("*/*metrics_diversity_ppl.json")):
             results_root = alt_root
     df = load_exp11_results(results_root)

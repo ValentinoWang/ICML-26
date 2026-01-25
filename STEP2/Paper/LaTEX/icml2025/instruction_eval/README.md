@@ -13,7 +13,7 @@ Example (Qwen2-7B, G4 Pointwise vs G4 Set-Aware):
 ```bash
 python instruction_eval/run_generate.py \
   --model-name unsloth/qwen2-7b-bnb-4bit \
-  --adapter-dir /root/autodl-tmp/ICML/STEP2/exp13_Llama_model/outputs/rec_seed1088_qwen_g0_g4_b1p5/adapter_g4_pointwise \
+  --adapter-dir ../../Experiments/exp13_Llama_model/outputs/rec_seed1088_qwen_g0_g4_b1p5/adapter_g4_pointwise \
   --prompts-jsonl instruction_eval/prompts_50.jsonl \
   --out-jsonl instruction_eval/pointwise_g4.jsonl \
   --load-in-4bit \
@@ -21,7 +21,7 @@ python instruction_eval/run_generate.py \
 
 python instruction_eval/run_generate.py \
   --model-name unsloth/qwen2-7b-bnb-4bit \
-  --adapter-dir /root/autodl-tmp/ICML/STEP2/exp13_Llama_model/outputs/rec_seed1088_qwen_g0_g4_b1p5/adapter_g4_set_aware \
+  --adapter-dir ../../Experiments/exp13_Llama_model/outputs/rec_seed1088_qwen_g0_g4_b1p5/adapter_g4_set_aware \
   --prompts-jsonl instruction_eval/prompts_50.jsonl \
   --out-jsonl instruction_eval/set_aware_g4.jsonl \
   --load-in-4bit \

@@ -1,0 +1,13 @@
+# FoggyCityscapes HIGH 场景数据集配置 (Bias Finetune 实验)
+
+train: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_high_train/images
+val: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_high_val/images
+test: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_global_test/images
+
+nc: 8
+names: ['person', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle', 'bicycle']
+
+scenario: high
+description: "Bias-Controlled YOLO training on FoggyCityscapes high scenario (~100% train)"
+experiment_type: "cityfog_bias_finetune"
+

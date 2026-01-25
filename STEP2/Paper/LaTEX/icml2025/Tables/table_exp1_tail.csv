@@ -1,0 +1,4 @@
+scenario,generation,no_filter_mean,no_filter_std,standard_filter_mean,standard_filter_std,ours_mean,ours_std
+Hard bias |b|=0.5,300,0.997174,0.015265,0.305053,0.031157,0.076219,0.058591
+Ridge alpha=20,300,0.38257,0.077341,0.025143,0.008824,0.030971,0.007013
+"Bayes sigma=0.2, n=20",300,0.79495,0.2166,0.034889,0.007798,0.030737,0.007

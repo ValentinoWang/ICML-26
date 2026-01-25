@@ -1,0 +1,36 @@
+# Python/Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Caches
+.cache/
+.hf_cache/
+**/.cache/
+**/.hf_cache/
+**/.cache/huggingface/
+**/unsloth_compiled_cache/
+**/.git.disabled/
+
+# Experiment outputs/logs
+**/outputs/
+**/output/
+**/outputs*/
+**/output*/
+**/results/
+**/results*/
+**/Results/
+**/Results*/
+**/logs/
+
+# Data & model artifacts
+**/data/
+**/*.pt
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Large generated assets
+STEP2/Total_results/Tables/
+STEP2/Total_results/Figures/

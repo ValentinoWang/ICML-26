@@ -1,0 +1,14 @@
+# FoggyCityscapes FEW-SHOT 场景数据集配置 (Bias Finetune 实验)
+# 直接在 Foggy few-shot 数据上做 YOLO + L_bias 微调
+
+train: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_few-shot_train/images
+val: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_few-shot_val/images
+test: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_global_test/images
+
+nc: 8
+names: ['person', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle', 'bicycle']
+
+scenario: few-shot
+description: "Bias-Controlled YOLO training on FoggyCityscapes few-shot scenario (~1% train)"
+experiment_type: "cityfog_bias_finetune"
+

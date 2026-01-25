@@ -1,0 +1,100 @@
+{"id": 1, "prompt": "Summarize in 2 sentences: The city expanded rapidly after the railway arrived, attracting new workers and businesses. Housing prices rose, and farmland was converted into neighborhoods."}
+{"id": 2, "prompt": "Rewrite in simpler words: The committee postponed the decision due to insufficient evidence."}
+{"id": 3, "prompt": "List three risks of storing passwords in plain text."}
+{"id": 4, "prompt": "Explain the difference between precision and recall in 3 sentences."}
+{"id": 5, "prompt": "Translate to Spanish: The package should arrive tomorrow morning."}
+{"id": 6, "prompt": "Define overfitting and give one way to reduce it."}
+{"id": 7, "prompt": "Classify the sentiment as positive, negative, or neutral: The battery lasts all day, and the screen is bright."}
+{"id": 8, "prompt": "Write a polite email declining a meeting invitation."}
+{"id": 9, "prompt": "Give a step-by-step plan to clean a coffee spill on a laptop keyboard."}
+{"id": 10, "prompt": "Write a Python function that checks if a string is a palindrome."}
+{"id": 11, "prompt": "Convert 78 Fahrenheit to Celsius."}
+{"id": 12, "prompt": "What is the next number in the sequence: 2, 6, 12, 20, 30?"}
+{"id": 13, "prompt": "Explain why the sky appears blue to a layperson."}
+{"id": 14, "prompt": "Summarize in 1 sentence: Photosynthesis converts light energy into chemical energy stored in glucose, releasing oxygen as a byproduct."}
+{"id": 15, "prompt": "Give three bullet points comparing SQL and NoSQL."}
+{"id": 16, "prompt": "Write a short product description for a reusable water bottle."}
+{"id": 17, "prompt": "Extract the action items from this note: Please send the slides by Friday and confirm the room booking."}
+{"id": 18, "prompt": "Given the list [3, 1, 4, 1, 5], return the list sorted ascending."}
+{"id": 19, "prompt": "Write a JSON object with keys name, age, and city for a person named Ana, age 29, from Lima."}
+{"id": 20, "prompt": "Explain the term compounding interest with a simple example."}
+{"id": 21, "prompt": "Generate a 5-word slogan for an eco-friendly car."}
+{"id": 22, "prompt": "Solve: If a train travels 180 km in 2 hours, what is its average speed in km/h?"}
+{"id": 23, "prompt": "Rewrite to be more formal: We looked at the data and it was kind of messy, so we cleaned it up."}
+{"id": 24, "prompt": "List two pros and two cons of remote work."}
+{"id": 25, "prompt": "Summarize to 8 words or fewer: Early evaluation signals can predict long-term stability in recursive training."}
+{"id": 26, "prompt": "Provide a one-paragraph explanation of what a neural network is."}
+{"id": 27, "prompt": "Write a haiku about rain."}
+{"id": 28, "prompt": "Reorder these steps: (a) Preheat oven to 180C, (b) Mix ingredients, (c) Bake for 25 minutes."}
+{"id": 29, "prompt": "Explain the difference between correlation and causation in one sentence."}
+{"id": 30, "prompt": "Create a markdown table with columns Item and Price for Apple $1 and Bread $2."}
+{"id": 31, "prompt": "What is 15% of 240?"}
+{"id": 32, "prompt": "Write a short apology message for a delayed shipment."}
+{"id": 33, "prompt": "Correct the grammar: She don't like coffee."}
+{"id": 34, "prompt": "Provide three alternative titles for a blog post about time management."}
+{"id": 35, "prompt": "Classify as spam or not spam: Congratulations! You won a free prize, click here."}
+{"id": 36, "prompt": "Convert this date to ISO format: March 5, 2024."}
+{"id": 37, "prompt": "Write a brief comparison between supervised and unsupervised learning."}
+{"id": 38, "prompt": "In one sentence, describe the plot of a mystery story involving a lost key."}
+{"id": 39, "prompt": "Generate a two-item checklist for daily backup routines."}
+{"id": 40, "prompt": "Explain why unit tests are useful in software development."}
+{"id": 41, "prompt": "Given inputs a=7, b=3, compute a^2 + b^2."}
+{"id": 42, "prompt": "Summarize: The experiment used three seeds and observed consistent gains across runs."}
+{"id": 43, "prompt": "Provide a concise definition of bias in machine learning."}
+{"id": 44, "prompt": "Write a short note introducing a new team member named Priya."}
+{"id": 45, "prompt": "Given the list ['apple','ape','apricot','banana'], return those that start with 'ap'."}
+{"id": 46, "prompt": "Describe a simple algorithm to find the maximum value in a list."}
+{"id": 47, "prompt": "Write a two-sentence explanation of what an API is."}
+{"id": 48, "prompt": "Simplify this fraction: 18/24."}
+{"id": 49, "prompt": "Suggest two ways to reduce energy use at home."}
+{"id": 50, "prompt": "Write a one-line tagline for a cybersecurity startup."}
+{"id": 51, "prompt": "Summarize in 1 sentence: The server crashed after a memory leak built up over days."}
+{"id": 52, "prompt": "Write a regex that matches an email address (simplified)."}
+{"id": 53, "prompt": "Explain in 2 sentences what a hash function does."}
+{"id": 54, "prompt": "Convert 3.5 kilometers to meters."}
+{"id": 55, "prompt": "Give two examples of renewable energy."}
+{"id": 56, "prompt": "Write a short thank-you note to a teammate for help on a report."}
+{"id": 57, "prompt": "Turn this into a question: You finished the draft."}
+{"id": 58, "prompt": "List the steps to brew tea (3 steps)."}
+{"id": 59, "prompt": "Explain the difference between HTTP and HTTPS in one sentence."}
+{"id": 60, "prompt": "Give a concise definition of entropy in information theory."}
+{"id": 61, "prompt": "Provide a Python list comprehension that squares numbers 1 to 5."}
+{"id": 62, "prompt": "Compute: (12 * 7) - 9."}
+{"id": 63, "prompt": "Translate to French: Please close the window."}
+{"id": 64, "prompt": "Classify sentiment: The update fixed the bug and improved speed."}
+{"id": 65, "prompt": "Rewrite to be shorter: The results were not what we expected."}
+{"id": 66, "prompt": "Give two safety tips for working with electricity."}
+{"id": 67, "prompt": "Create a 3-item shopping list for a picnic."}
+{"id": 68, "prompt": "Write a one-line summary of a movie about a lost spaceship finding home."}
+{"id": 69, "prompt": "What is the output of 2^5?"}
+{"id": 70, "prompt": "Explain in one sentence what a unit test is."}
+{"id": 71, "prompt": "Provide a short title for a section about scalability."}
+{"id": 72, "prompt": "Convert 0.75 to a fraction."}
+{"id": 73, "prompt": "List three common file formats for images."}
+{"id": 74, "prompt": "Give a definition of gradient descent."}
+{"id": 75, "prompt": "Simplify: 45/60."}
+{"id": 76, "prompt": "Write pseudocode to swap two variables."}
+{"id": 77, "prompt": "Generate a polite reminder to submit timesheets."}
+{"id": 78, "prompt": "Extract the date from this sentence: The meeting is on April 12, 2025."}
+{"id": 79, "prompt": "Rewrite to active voice: The solution was approved by the committee."}
+{"id": 80, "prompt": "Provide a two-sentence explanation of overfitting vs underfitting."}
+{"id": 81, "prompt": "Compute the average of 4, 9, and 11."}
+{"id": 82, "prompt": "Translate to Chinese (Simplified): The door is open."}
+{"id": 83, "prompt": "Give two reasons to use version control."}
+{"id": 84, "prompt": "Write a short caption for a chart showing rising sales."}
+{"id": 85, "prompt": "Convert 1024 bytes to kilobytes."}
+{"id": 86, "prompt": "List three examples of supervised learning tasks."}
+{"id": 87, "prompt": "Write a short warning about phishing emails."}
+{"id": 88, "prompt": "Turn into bullet points: The plan is to collect data, train a model, and deploy it."}
+{"id": 89, "prompt": "Explain what JSON is in one sentence."}
+{"id": 90, "prompt": "Give a one-line explanation of why caching improves performance."}
+{"id": 91, "prompt": "Provide a short apology for a late response."}
+{"id": 92, "prompt": "Classify: 'This is the worst product I have bought.'"}
+{"id": 93, "prompt": "Compute: 5! (factorial of 5)."}
+{"id": 94, "prompt": "Write a concise explanation of why backups are important."}
+{"id": 95, "prompt": "Give two alternatives to 'because'."}
+{"id": 96, "prompt": "Write a single sentence describing a sunrise over mountains."}
+{"id": 97, "prompt": "Explain the difference between RAM and storage in one sentence."}
+{"id": 98, "prompt": "List two benefits of code reviews."}
+{"id": 99, "prompt": "Rewrite: We need to reduce costs to improve margins."}
+{"id": 100, "prompt": "Create a 2-column markdown table of Task and Owner with 'Design'/'Li' and 'Testing'/'Sam'."}

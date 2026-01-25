@@ -1,0 +1,3 @@
+generation,method,test_mse_mean,test_mse_std,param_norm_mean,param_norm_std,total_time_sec
+300,no_filter,5.68326,0.03243,0.040325,0.00644,19.163477420806885
+300,ours_correction_only,4.858907,9.9e-05,1.550948,0.001122,19.163477420806885

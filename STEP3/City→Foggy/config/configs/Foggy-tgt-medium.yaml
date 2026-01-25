@@ -1,0 +1,13 @@
+# FoggyCityscapes MEDIUM 场景数据集配置 (Bias Finetune 实验)
+
+train: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_medium_train/images
+val: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_medium_val/images
+test: /root/autodl-tmp/dataset/Foggy-tgt-split/Foggy_tgt_global_test/images
+
+nc: 8
+names: ['person', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle', 'bicycle']
+
+scenario: medium
+description: "Bias-Controlled YOLO training on FoggyCityscapes medium scenario (~20% train)"
+experiment_type: "cityfog_bias_finetune"
+

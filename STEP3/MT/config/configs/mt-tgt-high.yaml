@@ -1,0 +1,14 @@
+# MT-tgt HIGH 场景数据集配置 (Bias Finetune 实验)
+# 直接在目标域 high 数据上做 YOLO + L_bias 微调
+
+train: /root/autodl-tmp/dataset/MT-tgt-split/MT-tgt_high_train/images
+val: /root/autodl-tmp/dataset/MT-tgt-split/MT-tgt_high_val/images
+test: /root/autodl-tmp/dataset/MT-tgt-split/MT-tgt_global_test/images
+
+nc: 6
+names: ['chamfer', 'multifaceted', 'bump', 'impurity', 'crack', 'grind']
+
+# 场景信息
+scenario: high
+description: "Bias-Controlled YOLO training on MT-tgt high scenario (80% data)"
+experiment_type: "yolo_bias_finetune"

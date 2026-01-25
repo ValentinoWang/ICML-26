@@ -1,0 +1,44 @@
+{
+  "args": {
+    "generations_dir": "Total_results/Tables/exp11_gpt2_model/generations_dphi1_leash",
+    "output_dir": "exp11_gpt2_model/MAUVE/dphi1_leash_debug_large",
+    "seeds": "1088",
+    "methods": "no_filter",
+    "min_gen": 0,
+    "max_gen": 0,
+    "sample_size": 50,
+    "max_text_length": 128,
+    "device_id": -1,
+    "model_name": "gpt2-large",
+    "batch_size": 4,
+    "kmeans_num_redo": 1,
+    "kmeans_max_iter": 30,
+    "num_buckets": "auto",
+    "ref_size": 50,
+    "reference_file": "exp11_gpt2_model/MAUVE/reference/wikitext_validation.txt",
+    "reference_arrow": null,
+    "reference_column": "text",
+    "reference_split": "validation",
+    "ref_seed_offset": 1
+  },
+  "results": [
+    {
+      "seed": 1088,
+      "method": "no_filter",
+      "generation": 0,
+      "mauve": 0.6588124708657779,
+      "mauve_std": null,
+      "mauve_star": 0.7096632231639424,
+      "divergence": 0.5754412396069193,
+      "p_samples": 50,
+      "q_samples": 50,
+      "ref_seed": 1089,
+      "max_text_length": 128,
+      "model_name": "gpt2-large",
+      "batch_size": 4,
+      "kmeans_num_redo": 1,
+      "kmeans_max_iter": 30,
+      "num_buckets": "auto"
+    }
+  ]
+}

@@ -36,6 +36,7 @@ STEP2/Total_results/Tables/
 STEP2/Total_results/Figures/
 STEP2/Experiments/Total_results/Tables/
 STEP2/Experiments/Total_results/Figures/
+STEP2/Paper/tex/
 
 # Local datasets (keep out of git)
 STEP2/DataSet/

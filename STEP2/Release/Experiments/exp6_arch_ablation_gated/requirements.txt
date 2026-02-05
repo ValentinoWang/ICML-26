@@ -1,0 +1,5 @@
+# Dependencies for exp6_arch_ablation_gated (gated variant ablations + plots).
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+

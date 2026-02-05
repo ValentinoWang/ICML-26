@@ -1,0 +1,17 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Local outputs
+results_demo/
+results/
+
+# Experiment outputs (not part of the compact release)
+Experiments/Total_results/
+Experiments/**/Results/
+Experiments/**/generations/
+Experiments/**/outputs/
+
+# Local env files (never commit real keys)
+.env
+

@@ -1,0 +1,6 @@
+# Dependencies for exp10_time_cost (ResNet + GPT2Config benchmark).
+numpy>=1.23
+torch>=2.0
+torchvision>=0.15
+transformers>=4.36
+

@@ -1,0 +1,7 @@
+# Dependencies for exp9_cifar10_setaware (CIFAR-10 via torchvision + plots).
+numpy>=1.23
+torch>=2.0
+torchvision>=0.15
+matplotlib>=3.7
+tqdm>=4.66
+

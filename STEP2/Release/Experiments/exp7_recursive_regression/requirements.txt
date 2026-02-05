@@ -1,0 +1,6 @@
+# Dependencies for exp7_recursive_regression (California Housing via scikit-learn).
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+scikit-learn>=1.2
+

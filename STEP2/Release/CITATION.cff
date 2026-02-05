@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying ICML paper."
+title: "Generalized Recursive Stability: Mitigating Model Collapse in Biased Estimation via Set-Aware Geometric Filtering"
+type: software
+license: MIT
+repository-code: "REPLACE_WITH_PUBLIC_REPO_URL"
+preferred-citation:
+  type: article
+  title: "Generalized Recursive Stability: Mitigating Model Collapse in Biased Estimation via Set-Aware Geometric Filtering"
+  authors:
+    - family-names: "REPLACE"
+      given-names: "REPLACE"
+  year: 2026
+  journal: "International Conference on Machine Learning (ICML)"
+  url: "REPLACE_WITH_OPENREVIEW_OR_ARXIV_URL"

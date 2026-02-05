@@ -1,0 +1,31 @@
+# Optional dependencies for running (some of) the full paper experiments.
+#
+# The minimal CPU demo only needs `requirements.txt`.
+#
+# Notes:
+# - Large-scale LLM experiments may require additional system deps and GPU memory.
+# - Some packages (e.g., `mauve-text`) may have their own heavyweight dependencies.
+
+numpy>=1.23
+matplotlib>=3.7
+torch>=2.0
+
+# Vision experiments (MNIST/CIFAR-10)
+torchvision>=0.15
+scipy>=1.10
+pillow>=9.5
+
+# Plotting / analysis helpers used by some figure scripts
+pandas>=2.0
+seaborn>=0.13
+scikit-learn>=1.2
+
+# LLM recursion experiments
+tqdm>=4.66
+transformers>=4.36
+datasets>=2.16
+sentence-transformers>=2.2
+
+# MAUVE evaluation (module name `mauve`)
+mauve-text>=0.3
+

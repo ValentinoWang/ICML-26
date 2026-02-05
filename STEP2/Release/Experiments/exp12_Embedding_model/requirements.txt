@@ -1,0 +1,9 @@
+# Dependencies for exp12_Embedding_model (sentence-transformers embeddings + topology plots).
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+pandas>=2.0
+seaborn>=0.13
+scikit-learn>=1.2
+sentence-transformers>=2.2
+

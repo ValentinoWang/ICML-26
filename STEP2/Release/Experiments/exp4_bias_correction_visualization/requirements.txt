@@ -1,0 +1,6 @@
+# Dependencies for exp4_bias_correction_visualization (synthetic visualization + plots).
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+

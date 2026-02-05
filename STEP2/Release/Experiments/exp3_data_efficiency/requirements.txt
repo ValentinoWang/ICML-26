@@ -1,0 +1,5 @@
+# Dependencies for exp3_data_efficiency (synthetic data-efficiency study + plots).
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+

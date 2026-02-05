@@ -1,0 +1,6 @@
+# Dependencies for exp1_bias_sources (synthetic bias-source scenarios + plots).
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+

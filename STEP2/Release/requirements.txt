@@ -1,0 +1,4 @@
+# Minimal dependencies for the regression demo in this release package.
+numpy>=1.23
+matplotlib>=3.7
+torch>=2.0

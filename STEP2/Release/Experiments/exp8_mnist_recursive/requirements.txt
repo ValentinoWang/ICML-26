@@ -1,0 +1,8 @@
+# Dependencies for exp8_mnist_recursive (MNIST via torchvision + PCA/rotation + plots).
+numpy>=1.23
+torch>=2.0
+torchvision>=0.15
+matplotlib>=3.7
+scipy>=1.10
+scikit-learn>=1.2
+

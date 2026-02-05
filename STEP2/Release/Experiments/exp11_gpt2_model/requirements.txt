@@ -1,0 +1,13 @@
+# Dependencies for exp11_gpt2_model (GPT-2 recursion + analysis scripts).
+numpy>=1.23
+torch>=2.0
+tqdm>=4.66
+transformers>=4.36
+datasets>=2.16
+matplotlib>=3.7
+pandas>=2.0
+scikit-learn>=1.2
+
+# Optional (only needed for MAUVE evaluation scripts):
+# mauve-text>=0.3
+

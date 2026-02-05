@@ -32,18 +32,18 @@ __pycache__/
 **/.env.*
 
 # Large generated assets
-STEP2/Total_results/Tables/
-STEP2/Total_results/Figures/
-STEP2/Experiments/Total_results/Tables/
-STEP2/Experiments/Total_results/Figures/
-STEP2/Paper/tex/
+Total_results/Tables/
+Total_results/Figures/
+Experiments/Total_results/Tables/
+Experiments/Total_results/Figures/
+Paper/tex/
 
 # Local datasets (keep out of git)
-STEP2/DataSet/
-STEP2/Data-pre/
+DataSet/
+Data-pre/
 
 # Exp9 result aliases/outputs
-STEP2/Experiments/exp9_cifar10_setaware/results*
+Experiments/exp9_cifar10_setaware/results*
 
 # Local Codex state
 skills/

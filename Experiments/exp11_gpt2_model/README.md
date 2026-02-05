@@ -13,7 +13,7 @@ Recursive GPT-2 collapse experiment with set-aware mitigation. The script can ru
 ## Quick start
 ```bash
 pip install torch transformers datasets
-python STEP2/Experiments/exp11_gpt2_model/run_exp11_gpt2_model.py --generations 5 --candidate-pool 10000 --train-samples 2000 --save-checkpoints
+python Experiments/exp11_gpt2_model/run_exp11_gpt2_model.py --generations 5 --candidate-pool 10000 --train-samples 2000 --save-checkpoints
 ```
 The script will download GPT-2 small and Wikitext-103 (via `datasets`). It also pulls `sentence-transformers/all-MiniLM-L6-v2` for embeddings (handled inside `transformers.AutoModel`/`AutoTokenizer`).
 
@@ -30,7 +30,7 @@ The script will download GPT-2 small and Wikitext-103 (via `datasets`). It also 
 - Repro: `run_dispersion.sh` runs the `dispersion` baseline under the same protocol.
 
 ## Outputs
-- 默认基路径 `STEP2/Experiments/Total_results/Tables/exp11_gpt2_model/Results/metrics_diversity_ppl.json`（仓库根相对路径），并为每个 seed 写入 `<base_dir>/<seed>/<base_name>.{json,csv}`。如传入 `--results-path <path/to/your.json>`，会在 `<path/to>/<seed>/<your.json|.csv>` 下生成。Checkpoints 在对应 seed 目录内（开启 `--save-checkpoints` 时）。
+- 默认基路径 `Experiments/Total_results/Tables/exp11_gpt2_model/Results/metrics_diversity_ppl.json`（仓库根相对路径），并为每个 seed 写入 `<base_dir>/<seed>/<base_name>.{json,csv}`。如传入 `--results-path <path/to/your.json>`，会在 `<path/to>/<seed>/<your.json|.csv>` 下生成。Checkpoints 在对应 seed 目录内（开启 `--save-checkpoints` 时）。
 - 新版 CSV 会在 `val_ppl / distinct2-4` 之外，额外记录训练集质量侧统计：`train_unique_line_ratio`、`train_rep4_intra`、`train_gzip_ratio`、`train_avg_words`（对齐当前代被选中的训练文本；用于检测复读/塌缩与“胡言乱语”风险）。
 
 ## Repro scripts

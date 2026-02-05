@@ -19,7 +19,7 @@ def run(cmd: list[str], cwd: Path, *, dry_run: bool) -> None:
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Run experiment entrypoints under STEP2/Experiments.\n\n"
+            "Run experiment entrypoints under Experiments/.\n\n"
             "Note: some experiments are heavy (e.g., exp9/exp11/exp13) and may require extra deps/GPU."
         ),
         formatter_class=argparse.RawTextHelpFormatter,

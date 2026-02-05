@@ -2,7 +2,7 @@
 Run Gen0 twice with identical seeds and report whether metrics match.
 
 Usage:
-    python gen0_determinism_check.py --seed 1088 --data-root STEP2/data
+    python gen0_determinism_check.py --seed 1088 --data-root ./data
 """
 
 import argparse

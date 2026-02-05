@@ -19,3 +19,14 @@
 建议做法：
 - 原始数据尽量放在 `DataSet/` 或将 `DataSet/` 软链接到你的数据盘。
 - 预处理产物放 `Data-pre/`，并按实验/数据集分子目录。
+
+## 一键下载（公共数据集）
+
+如果你只是想把之前用过的公共数据集重新下载回来（不上传到 GitHub），可以运行：
+
+```bash
+python3 scripts/setup_data.py --cifar10 --mnist
+# 或者：python3 scripts/setup_data.py --all
+```
+
+默认 torchvision 数据会落在 `Experiments/data/`。

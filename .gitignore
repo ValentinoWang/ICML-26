@@ -39,8 +39,12 @@ Experiments/Total_results/Figures/
 Paper/tex/
 
 # Local datasets (keep out of git)
-DataSet/
-Data-pre/
+DataSet/*
+!DataSet/.gitkeep
+!DataSet/README.md
+Data-pre/*
+!Data-pre/.gitkeep
+!Data-pre/README.md
 
 # Exp9 result aliases/outputs
 Experiments/exp9_cifar10_setaware/results*

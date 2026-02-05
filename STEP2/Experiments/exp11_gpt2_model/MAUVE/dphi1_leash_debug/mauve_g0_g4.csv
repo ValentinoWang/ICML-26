@@ -1,2 +1,0 @@
-seed,method,generation,mauve,mauve_std,mauve_star,divergence,p_samples,q_samples,ref_seed,max_text_length,model_name,batch_size,kmeans_num_redo,kmeans_max_iter,num_buckets
-1088,no_filter,0,0.5383345967328503,,0.6704255567683388,0.5274480774819844,50,50,1089,128,gpt2,8,1,30,auto

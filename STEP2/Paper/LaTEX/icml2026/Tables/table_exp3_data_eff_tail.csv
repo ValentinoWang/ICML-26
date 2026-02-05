@@ -1,4 +1,0 @@
-scenario,generation,baseline_big_mean,baseline_big_std,small_no_filter_mean,small_no_filter_std,ours_small_mean,ours_small_std
-Hard bias small-sample,200,0.499764,0.000446,0.503829,0.005997,0.031073,0.016927
-Ridge small-sample,200,0.001683,0.000407,0.115115,0.016314,0.03553,0.009325
-Bayes small-sample n=5,200,0.001173,0.000398,0.165382,0.088548,0.079837,0.036849

@@ -1,49 +1,17 @@
-# Python/Jupyter artifacts
+# Bytecode / caches
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 
-# Caches
-.cache/
-.hf_cache/
-**/.cache/
-**/.hf_cache/
-**/.cache/huggingface/
-**/unsloth_compiled_cache/
-**/.git.disabled/
+# Local outputs
+results_demo/
+results/
 
-# Experiment outputs/logs
-**/outputs/
-**/output/
-**/outputs*/
-**/output*/
-**/results/
-**/results*/
-**/Results/
-**/Results*/
-**/logs/
+# Experiment outputs (not part of the compact release)
+Experiments/Total_results/
+Experiments/**/Results/
+Experiments/**/generations/
+Experiments/**/outputs/
 
-# Data & model artifacts
-**/data/
-**/*.pt
+# Local env files (never commit real keys)
 .env
-.env.*
-**/.env
-**/.env.*
 
-# Large generated assets
-STEP2/Total_results/Tables/
-STEP2/Total_results/Figures/
-STEP2/Experiments/Total_results/Tables/
-STEP2/Experiments/Total_results/Figures/
-STEP2/Paper/tex/
-
-# Local datasets (keep out of git)
-STEP2/DataSet/
-STEP2/Data-pre/
-
-# Exp9 result aliases/outputs
-STEP2/Experiments/exp9_cifar10_setaware/results*
-
-# Local Codex state
-skills/

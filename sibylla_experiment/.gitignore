@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+results/
+results_legacy/summary.png
+results_projected_logsig/summary.png

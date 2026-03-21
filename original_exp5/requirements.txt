@@ -1,0 +1,5 @@
+# Dependencies for exp5_high_dim_scalability (synthetic high-dim study + plots).
+numpy>=1.23
+torch>=2.0
+matplotlib>=3.7
+

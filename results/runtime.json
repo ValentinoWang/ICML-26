@@ -1,0 +1,28 @@
+{
+  "device": "mps",
+  "seeds": [
+    1088,
+    2195,
+    4960,
+    1545,
+    3549,
+    1440,
+    3050,
+    5414
+  ],
+  "per_dim_time_sec": {
+    "500": 28.86090326309204,
+    "600": 27.18442702293396,
+    "700": 27.528894186019897,
+    "1000": 25.11189293861389,
+    "1200": 28.807180166244507,
+    "1500": 31.449482917785645,
+    "2000": 26.93949317932129,
+    "12288": 34.94160318374634
+  },
+  "total_time_sec": 231.06925702095032,
+  "alignment": {
+    "paper_exp5": "same data generation, same baselines, same losses, same dims/seeds protocol",
+    "sibylla": "same winding-ratio thresholds, same expected_next diagnostic window, same adaptive logsig family, same MLP head style"
+  }
+}

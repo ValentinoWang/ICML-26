@@ -1,0 +1,417 @@
+scene,method,generation,delta_mu_norm,residual_norm,trace_a_res
+fixed_additive_bias,No Filter,1,0.21633308,0.02279875,0.00000000
+fixed_additive_bias,Weight-only,1,0.19367797,0.02279875,0.00000000
+fixed_additive_bias,Set-Aware,1,0.19367797,0.22402561,0.00000000
+fixed_additive_bias,Our method,1,0.19367797,0.01061626,-0.00466522
+fixed_additive_bias,No Filter,2,0.21633308,0.02301712,0.00000000
+fixed_additive_bias,Weight-only,2,0.19472366,0.02301712,0.00000000
+fixed_additive_bias,Set-Aware,2,0.19472366,0.22285045,0.00000000
+fixed_additive_bias,Our method,2,0.19472366,0.01176275,-0.00314365
+fixed_additive_bias,No Filter,3,0.21633308,0.02485285,0.00000000
+fixed_additive_bias,Weight-only,3,0.19598989,0.02485285,0.00000000
+fixed_additive_bias,Set-Aware,3,0.19598989,0.22173807,0.00000000
+fixed_additive_bias,Our method,3,0.19598989,0.01332799,-0.00257396
+fixed_additive_bias,No Filter,4,0.21633308,0.02885395,0.00000000
+fixed_additive_bias,Weight-only,4,0.20238652,0.02885395,0.00000000
+fixed_additive_bias,Set-Aware,4,0.20238652,0.22066918,0.00000000
+fixed_additive_bias,Our method,4,0.20238652,0.01451074,-0.00318120
+fixed_additive_bias,No Filter,5,0.21633308,0.03387525,0.00000000
+fixed_additive_bias,Weight-only,5,0.21169428,0.03387525,0.00000000
+fixed_additive_bias,Set-Aware,5,0.21169428,0.21998120,0.00000000
+fixed_additive_bias,Our method,5,0.21169428,0.01487073,-0.00445060
+fixed_additive_bias,No Filter,6,0.21633308,0.03814280,0.00000000
+fixed_additive_bias,Weight-only,6,0.22192087,0.03814280,0.00000000
+fixed_additive_bias,Set-Aware,6,0.22192087,0.21973665,0.00000000
+fixed_additive_bias,Our method,6,0.22192087,0.01455967,-0.00574026
+fixed_additive_bias,No Filter,7,0.21633308,0.03628232,0.00000000
+fixed_additive_bias,Weight-only,7,0.22649937,0.03628232,0.00000000
+fixed_additive_bias,Set-Aware,7,0.22649937,0.21975725,0.00000000
+fixed_additive_bias,Our method,7,0.22649937,0.01356368,-0.00559292
+fixed_additive_bias,No Filter,8,0.21633308,0.03150842,0.00000000
+fixed_additive_bias,Weight-only,8,0.22734969,0.03150842,0.00000000
+fixed_additive_bias,Set-Aware,8,0.22734969,0.22017630,0.00000000
+fixed_additive_bias,Our method,8,0.22734969,0.01258792,-0.00415111
+fixed_additive_bias,No Filter,9,0.21633308,0.02666905,0.00000000
+fixed_additive_bias,Weight-only,9,0.22500510,0.02666905,0.00000000
+fixed_additive_bias,Set-Aware,9,0.22500510,0.22001644,0.00000000
+fixed_additive_bias,Our method,9,0.22500510,0.01211305,-0.00208658
+fixed_additive_bias,No Filter,10,0.21633308,0.02470828,0.00000000
+fixed_additive_bias,Weight-only,10,0.22426707,0.02470828,0.00000000
+fixed_additive_bias,Set-Aware,10,0.22426707,0.21929564,0.00000000
+fixed_additive_bias,Our method,10,0.22426707,0.01222135,-0.00027968
+fixed_additive_bias,No Filter,11,0.21633308,0.02407619,0.00000000
+fixed_additive_bias,Weight-only,11,0.22361916,0.02407619,0.00000000
+fixed_additive_bias,Set-Aware,11,0.22361916,0.21782312,0.00000000
+fixed_additive_bias,Our method,11,0.22361916,0.01241338,0.00124125
+fixed_additive_bias,No Filter,12,0.21633308,0.02453257,0.00000000
+fixed_additive_bias,Weight-only,12,0.22393837,0.02453257,0.00000000
+fixed_additive_bias,Set-Aware,12,0.22393837,0.21744811,0.00000000
+fixed_additive_bias,Our method,12,0.22393837,0.01246888,0.00254136
+fixed_additive_bias,No Filter,13,0.21633308,0.03193041,0.00000000
+fixed_additive_bias,Weight-only,13,0.22974524,0.03193041,0.00000000
+fixed_additive_bias,Set-Aware,13,0.22974524,0.21816962,0.00000000
+fixed_additive_bias,Our method,13,0.22974524,0.01213097,0.00265550
+fixed_additive_bias,No Filter,14,0.21633308,0.03860846,0.00000000
+fixed_additive_bias,Weight-only,14,0.23946195,0.03860846,0.00000000
+fixed_additive_bias,Set-Aware,14,0.23946195,0.21901904,0.00000000
+fixed_additive_bias,Our method,14,0.23946195,0.01178667,0.00319490
+fixed_additive_bias,No Filter,15,0.21633308,0.04151024,0.00000000
+fixed_additive_bias,Weight-only,15,0.24506984,0.04151024,0.00000000
+fixed_additive_bias,Set-Aware,15,0.24506984,0.21957113,0.00000000
+fixed_additive_bias,Our method,15,0.24506984,0.01207890,0.00441451
+fixed_additive_bias,No Filter,16,0.21633308,0.03989532,0.00000000
+fixed_additive_bias,Weight-only,16,0.24843258,0.03989532,0.00000000
+fixed_additive_bias,Set-Aware,16,0.24843258,0.22084872,0.00000000
+fixed_additive_bias,Our method,16,0.24843258,0.01362873,0.00548929
+fixed_additive_bias,No Filter,17,0.21633308,0.03544355,0.00000000
+fixed_additive_bias,Weight-only,17,0.24914369,0.03544355,0.00000000
+fixed_additive_bias,Set-Aware,17,0.24914369,0.22155865,0.00000000
+fixed_additive_bias,Our method,17,0.24914369,0.01538306,0.00540229
+fixed_additive_bias,No Filter,18,0.21633308,0.03584003,0.00000000
+fixed_additive_bias,Weight-only,18,0.25149722,0.03584003,0.00000000
+fixed_additive_bias,Set-Aware,18,0.25149722,0.22123089,0.00000000
+fixed_additive_bias,Our method,18,0.25149722,0.01625491,0.00367967
+fixed_additive_bias,No Filter,19,0.21633308,0.03532549,0.00000000
+fixed_additive_bias,Weight-only,19,0.25162083,0.03532549,0.00000000
+fixed_additive_bias,Set-Aware,19,0.25162083,0.21980413,0.00000000
+fixed_additive_bias,Our method,19,0.25162083,0.01623769,0.00180406
+fixed_additive_bias,No Filter,20,0.21633308,0.03040047,0.00000000
+fixed_additive_bias,Weight-only,20,0.24552502,0.03040047,0.00000000
+fixed_additive_bias,Set-Aware,20,0.24552502,0.21806746,0.00000000
+fixed_additive_bias,Our method,20,0.24552502,0.01499945,0.00075768
+fixed_additive_bias,No Filter,21,0.21633308,0.02813444,0.00000000
+fixed_additive_bias,Weight-only,21,0.24055675,0.02813444,0.00000000
+fixed_additive_bias,Set-Aware,21,0.24055675,0.21650644,0.00000000
+fixed_additive_bias,Our method,21,0.24055675,0.01315652,0.00009859
+fixed_additive_bias,No Filter,22,0.21633308,0.02905477,0.00000000
+fixed_additive_bias,Weight-only,22,0.22919781,0.02905477,0.00000000
+fixed_additive_bias,Set-Aware,22,0.22919781,0.21588547,0.00000000
+fixed_additive_bias,Our method,22,0.22919781,0.01123751,0.00006741
+fixed_additive_bias,No Filter,23,0.21633308,0.03574743,0.00000000
+fixed_additive_bias,Weight-only,23,0.21876581,0.03574743,0.00000000
+fixed_additive_bias,Set-Aware,23,0.21876581,0.21515355,0.00000000
+fixed_additive_bias,Our method,23,0.21876581,0.01052334,0.00088299
+fixed_additive_bias,No Filter,24,0.21633308,0.04066352,0.00000000
+fixed_additive_bias,Weight-only,24,0.21002295,0.04066352,0.00000000
+fixed_additive_bias,Set-Aware,24,0.21002295,0.21416861,0.00000000
+fixed_additive_bias,Our method,24,0.21002295,0.01148040,0.00386246
+anisotropic_shrinkage,No Filter,1,0.68348686,0.02375595,0.00000000
+anisotropic_shrinkage,Weight-only,1,0.69527452,0.02375595,0.00000000
+anisotropic_shrinkage,Set-Aware,1,0.69527452,0.61764992,0.00000000
+anisotropic_shrinkage,Our method,1,0.69527452,0.05244533,-0.01919754
+anisotropic_shrinkage,No Filter,2,0.53620418,0.02224970,0.00000000
+anisotropic_shrinkage,Weight-only,2,0.53768696,0.02224970,0.00000000
+anisotropic_shrinkage,Set-Aware,2,0.60392553,0.57579530,0.00000000
+anisotropic_shrinkage,Our method,2,0.60057930,0.04811603,-0.01749602
+anisotropic_shrinkage,No Filter,3,0.48009666,0.02147957,0.00000000
+anisotropic_shrinkage,Weight-only,3,0.47682415,0.02147957,0.00000000
+anisotropic_shrinkage,Set-Aware,3,0.53283076,0.53404326,0.00000000
+anisotropic_shrinkage,Our method,3,0.52033722,0.04686328,-0.01746524
+anisotropic_shrinkage,No Filter,4,0.47313695,0.02334390,0.00000000
+anisotropic_shrinkage,Weight-only,4,0.47883529,0.02334390,0.00000000
+anisotropic_shrinkage,Set-Aware,4,0.48132166,0.49126566,0.00000000
+anisotropic_shrinkage,Our method,4,0.45746341,0.04850966,-0.01987908
+anisotropic_shrinkage,No Filter,5,0.48877757,0.03073805,0.00000000
+anisotropic_shrinkage,Weight-only,5,0.50847031,0.03073805,0.00000000
+anisotropic_shrinkage,Set-Aware,5,0.43859524,0.44758967,0.00000000
+anisotropic_shrinkage,Our method,5,0.40360189,0.04903248,-0.02303180
+anisotropic_shrinkage,No Filter,6,0.51419378,0.03903368,0.00000000
+anisotropic_shrinkage,Weight-only,6,0.54995328,0.03903368,0.00000000
+anisotropic_shrinkage,Set-Aware,6,0.40049763,0.40437211,0.00000000
+anisotropic_shrinkage,Our method,6,0.35702485,0.04586220,-0.02446367
+anisotropic_shrinkage,No Filter,7,0.54416233,0.03269191,0.00000000
+anisotropic_shrinkage,Weight-only,7,0.58165429,0.03269191,0.00000000
+anisotropic_shrinkage,Set-Aware,7,0.35895230,0.36249505,0.00000000
+anisotropic_shrinkage,Our method,7,0.30764530,0.03962569,-0.02199402
+anisotropic_shrinkage,No Filter,8,0.57675747,0.02416399,0.00000000
+anisotropic_shrinkage,Weight-only,8,0.61271077,0.02416399,0.00000000
+anisotropic_shrinkage,Set-Aware,8,0.31952023,0.32567960,0.00000000
+anisotropic_shrinkage,Our method,8,0.26387349,0.03311988,-0.01837101
+anisotropic_shrinkage,No Filter,9,0.61133967,0.02391121,0.00000000
+anisotropic_shrinkage,Weight-only,9,0.65257664,0.02391121,0.00000000
+anisotropic_shrinkage,Set-Aware,9,0.28936718,0.29351413,0.00000000
+anisotropic_shrinkage,Our method,9,0.23297022,0.02837159,-0.01575554
+anisotropic_shrinkage,No Filter,10,0.64774799,0.02204587,0.00000000
+anisotropic_shrinkage,Weight-only,10,0.69235152,0.02204587,0.00000000
+anisotropic_shrinkage,Set-Aware,10,0.26278474,0.26465775,0.00000000
+anisotropic_shrinkage,Our method,10,0.20569562,0.02530888,-0.01333872
+anisotropic_shrinkage,No Filter,11,0.68599481,0.02094838,0.00000000
+anisotropic_shrinkage,Weight-only,11,0.73421329,0.02094838,0.00000000
+anisotropic_shrinkage,Set-Aware,11,0.23940511,0.23722846,0.00000000
+anisotropic_shrinkage,Our method,11,0.18296453,0.02351205,-0.01139191
+anisotropic_shrinkage,No Filter,12,0.72615417,0.02075347,0.00000000
+anisotropic_shrinkage,Weight-only,12,0.77868897,0.02075347,0.00000000
+anisotropic_shrinkage,Set-Aware,12,0.21765218,0.20839720,0.00000000
+anisotropic_shrinkage,Our method,12,0.16403279,0.02274254,-0.00999673
+anisotropic_shrinkage,No Filter,13,0.76832234,0.02132613,0.00000000
+anisotropic_shrinkage,Weight-only,13,0.82658068,0.02132613,0.00000000
+anisotropic_shrinkage,Set-Aware,13,0.19585215,0.18100318,0.00000000
+anisotropic_shrinkage,Our method,13,0.14840810,0.02365863,-0.00944628
+anisotropic_shrinkage,No Filter,14,0.81260467,0.02956851,0.00000000
+anisotropic_shrinkage,Weight-only,14,0.88634586,0.02956851,0.00000000
+anisotropic_shrinkage,Set-Aware,14,0.17876819,0.15730351,0.00000000
+anisotropic_shrinkage,Our method,14,0.14264118,0.02725358,-0.01067608
+anisotropic_shrinkage,No Filter,15,0.85911172,0.04044406,0.00000000
+anisotropic_shrinkage,Weight-only,15,0.95208414,0.04044406,0.00000000
+anisotropic_shrinkage,Set-Aware,15,0.16864441,0.13877338,0.00000000
+anisotropic_shrinkage,Our method,15,0.14187996,0.03215225,-0.01258632
+anisotropic_shrinkage,No Filter,16,0.90795862,0.04054720,0.00000000
+anisotropic_shrinkage,Weight-only,16,1.01120225,0.04054720,0.00000000
+anisotropic_shrinkage,Set-Aware,16,0.15457327,0.12534174,0.00000000
+anisotropic_shrinkage,Our method,16,0.13266632,0.03754242,-0.01267971
+anisotropic_shrinkage,No Filter,17,0.95926530,0.04040289,0.00000000
+anisotropic_shrinkage,Weight-only,17,1.07162557,0.04040289,0.00000000
+anisotropic_shrinkage,Set-Aware,17,0.14276403,0.11267070,0.00000000
+anisotropic_shrinkage,Our method,17,0.12522800,0.04091502,-0.01212435
+anisotropic_shrinkage,No Filter,18,1.01315702,0.03964901,0.00000000
+anisotropic_shrinkage,Weight-only,18,1.13328018,0.03964901,0.00000000
+anisotropic_shrinkage,Set-Aware,18,0.13210601,0.10493027,0.00000000
+anisotropic_shrinkage,Our method,18,0.11916649,0.04161762,-0.01115289
+anisotropic_shrinkage,No Filter,19,1.06976483,0.03760820,0.00000000
+anisotropic_shrinkage,Weight-only,19,1.19628968,0.03760820,0.00000000
+anisotropic_shrinkage,Set-Aware,19,0.12185865,0.10053705,0.00000000
+anisotropic_shrinkage,Our method,19,0.11345649,0.03997841,-0.00979398
+anisotropic_shrinkage,No Filter,20,1.12922611,0.02403589,0.00000000
+anisotropic_shrinkage,Weight-only,20,1.24634322,0.02403589,0.00000000
+anisotropic_shrinkage,Set-Aware,20,0.09740964,0.09734380,0.00000000
+anisotropic_shrinkage,Our method,20,0.09342652,0.03617747,-0.00713353
+anisotropic_shrinkage,No Filter,21,1.19168494,0.02067274,0.00000000
+anisotropic_shrinkage,Weight-only,21,1.30097507,0.02067274,0.00000000
+anisotropic_shrinkage,Set-Aware,21,0.07528113,0.09258617,0.00000000
+anisotropic_shrinkage,Our method,21,0.07888089,0.03299562,-0.00631194
+anisotropic_shrinkage,No Filter,22,1.25729257,0.03175052,0.00000000
+anisotropic_shrinkage,Weight-only,22,1.34953970,0.03175052,0.00000000
+anisotropic_shrinkage,Set-Aware,22,0.04572313,0.08606203,0.00000000
+anisotropic_shrinkage,Our method,22,0.06063365,0.03216346,-0.00760293
+anisotropic_shrinkage,No Filter,23,1.32620777,0.04500304,0.00000000
+anisotropic_shrinkage,Weight-only,23,1.40320257,0.04500304,0.00000000
+anisotropic_shrinkage,Set-Aware,23,0.02325981,0.07838645,0.00000000
+anisotropic_shrinkage,Our method,23,0.05030918,0.03377813,-0.00959819
+anisotropic_shrinkage,No Filter,24,1.39859730,0.05526712,0.00000000
+anisotropic_shrinkage,Weight-only,24,1.46167659,0.05526712,0.00000000
+anisotropic_shrinkage,Set-Aware,24,0.02165569,0.06886252,0.00000000
+anisotropic_shrinkage,Our method,24,0.04475483,0.03625691,-0.01033394
+noncommutative_structural_bias,No Filter,1,0.24300922,0.02606388,0.00000000
+noncommutative_structural_bias,Weight-only,1,0.25163957,0.02606388,0.00000000
+noncommutative_structural_bias,Set-Aware,1,0.25163957,0.19261380,0.00000000
+noncommutative_structural_bias,Our method,1,0.25163957,0.04104808,-0.03818961
+noncommutative_structural_bias,No Filter,2,0.22550771,0.02441414,0.00000000
+noncommutative_structural_bias,Weight-only,2,0.22169923,0.02441414,0.00000000
+noncommutative_structural_bias,Set-Aware,2,0.22028215,0.18497265,0.00000000
+noncommutative_structural_bias,Our method,2,0.22122945,0.03861992,-0.03509083
+noncommutative_structural_bias,No Filter,3,0.20511191,0.02648697,0.00000000
+noncommutative_structural_bias,Weight-only,3,0.19468678,0.02648697,0.00000000
+noncommutative_structural_bias,Set-Aware,3,0.19497543,0.17601334,0.00000000
+noncommutative_structural_bias,Our method,3,0.19670883,0.03863928,-0.03402675
+noncommutative_structural_bias,No Filter,4,0.18343674,0.03164051,0.00000000
+noncommutative_structural_bias,Weight-only,4,0.16438913,0.03164051,0.00000000
+noncommutative_structural_bias,Set-Aware,4,0.16809241,0.16654593,0.00000000
+noncommutative_structural_bias,Our method,4,0.16974019,0.04091026,-0.03549364
+noncommutative_structural_bias,No Filter,5,0.16172795,0.04207212,0.00000000
+noncommutative_structural_bias,Weight-only,5,0.12739030,0.04207212,0.00000000
+noncommutative_structural_bias,Set-Aware,5,0.13474822,0.15488381,0.00000000
+noncommutative_structural_bias,Our method,5,0.13557221,0.04369646,-0.03955545
+noncommutative_structural_bias,No Filter,6,0.14089447,0.04925816,0.00000000
+noncommutative_structural_bias,Weight-only,6,0.08889464,0.04925816,0.00000000
+noncommutative_structural_bias,Set-Aware,6,0.10054832,0.14053968,0.00000000
+noncommutative_structural_bias,Our method,6,0.10036327,0.04433562,-0.04235604
+noncommutative_structural_bias,No Filter,7,0.12156378,0.03753064,0.00000000
+noncommutative_structural_bias,Weight-only,7,0.06929016,0.03753064,0.00000000
+noncommutative_structural_bias,Set-Aware,7,0.08764788,0.12490200,0.00000000
+noncommutative_structural_bias,Our method,7,0.08492156,0.04125282,-0.03951311
+noncommutative_structural_bias,No Filter,8,0.10414026,0.03644333,0.00000000
+noncommutative_structural_bias,Weight-only,8,0.05603279,0.03644333,0.00000000
+noncommutative_structural_bias,Set-Aware,8,0.07731282,0.11056049,0.00000000
+noncommutative_structural_bias,Our method,8,0.07108385,0.03722675,-0.03685117
+noncommutative_structural_bias,No Filter,9,0.08885807,0.03546438,0.00000000
+noncommutative_structural_bias,Weight-only,9,0.04165556,0.03546438,0.00000000
+noncommutative_structural_bias,Set-Aware,9,0.06512329,0.09587852,0.00000000
+noncommutative_structural_bias,Our method,9,0.05729891,0.03320808,-0.03262825
+noncommutative_structural_bias,No Filter,10,0.07582415,0.03562778,0.00000000
+noncommutative_structural_bias,Weight-only,10,0.02860708,0.03562778,0.00000000
+noncommutative_structural_bias,Set-Aware,10,0.05289388,0.08561232,0.00000000
+noncommutative_structural_bias,Our method,10,0.04445352,0.02984234,-0.02862964
+noncommutative_structural_bias,No Filter,11,0.06504878,0.03607793,0.00000000
+noncommutative_structural_bias,Weight-only,11,0.01843036,0.03607793,0.00000000
+noncommutative_structural_bias,Set-Aware,11,0.04234276,0.07787709,0.00000000
+noncommutative_structural_bias,Our method,11,0.03301884,0.02691377,-0.02485895
+noncommutative_structural_bias,No Filter,12,0.05646174,0.03756832,0.00000000
+noncommutative_structural_bias,Weight-only,12,0.01816890,0.03756832,0.00000000
+noncommutative_structural_bias,Set-Aware,12,0.03786229,0.07136109,0.00000000
+noncommutative_structural_bias,Our method,12,0.02797307,0.02540229,-0.02261673
+noncommutative_structural_bias,No Filter,13,0.04991574,0.03895633,0.00000000
+noncommutative_structural_bias,Weight-only,13,0.02056651,0.03895633,0.00000000
+noncommutative_structural_bias,Set-Aware,13,0.03651372,0.06533992,0.00000000
+noncommutative_structural_bias,Our method,13,0.02728009,0.02519685,-0.02163041
+noncommutative_structural_bias,No Filter,14,0.04518530,0.04044227,0.00000000
+noncommutative_structural_bias,Weight-only,14,0.02297302,0.04044227,0.00000000
+noncommutative_structural_bias,Set-Aware,14,0.03655588,0.05906398,0.00000000
+noncommutative_structural_bias,Our method,14,0.02944353,0.02645938,-0.02197473
+noncommutative_structural_bias,No Filter,15,0.04197617,0.04919849,0.00000000
+noncommutative_structural_bias,Weight-only,15,0.03059287,0.04919849,0.00000000
+noncommutative_structural_bias,Set-Aware,15,0.04050374,0.05352755,0.00000000
+noncommutative_structural_bias,Our method,15,0.03856689,0.02954138,-0.02447876
+noncommutative_structural_bias,No Filter,16,0.03995578,0.05643975,0.00000000
+noncommutative_structural_bias,Weight-only,16,0.03894744,0.05643975,0.00000000
+noncommutative_structural_bias,Set-Aware,16,0.04915998,0.05235383,0.00000000
+noncommutative_structural_bias,Our method,16,0.05095014,0.03355230,-0.02707798
+noncommutative_structural_bias,No Filter,17,0.03879803,0.05998471,0.00000000
+noncommutative_structural_bias,Weight-only,17,0.04949102,0.05998471,0.00000000
+noncommutative_structural_bias,Set-Aware,17,0.06417356,0.05378682,0.00000000
+noncommutative_structural_bias,Our method,17,0.06698439,0.03765378,-0.02823057
+noncommutative_structural_bias,No Filter,18,0.03822227,0.06135012,0.00000000
+noncommutative_structural_bias,Weight-only,18,0.05709399,0.06135012,0.00000000
+noncommutative_structural_bias,Set-Aware,18,0.07750102,0.05495467,0.00000000
+noncommutative_structural_bias,Our method,18,0.08200932,0.04033351,-0.02816457
+noncommutative_structural_bias,No Filter,19,0.03801225,0.05479659,0.00000000
+noncommutative_structural_bias,Weight-only,19,0.05948097,0.05479659,0.00000000
+noncommutative_structural_bias,Set-Aware,19,0.08491992,0.05570174,0.00000000
+noncommutative_structural_bias,Our method,19,0.09150422,0.04067526,-0.02619839
+noncommutative_structural_bias,No Filter,20,0.03801549,0.04168569,0.00000000
+noncommutative_structural_bias,Weight-only,20,0.06155820,0.04168569,0.00000000
+noncommutative_structural_bias,Set-Aware,20,0.08734795,0.05697190,0.00000000
+noncommutative_structural_bias,Our method,20,0.09531379,0.03894811,-0.02338640
+noncommutative_structural_bias,No Filter,21,0.03813175,0.03267797,0.00000000
+noncommutative_structural_bias,Weight-only,21,0.06274383,0.03267797,0.00000000
+noncommutative_structural_bias,Set-Aware,21,0.08475956,0.05679834,0.00000000
+noncommutative_structural_bias,Our method,21,0.09519176,0.03615178,-0.02151301
+noncommutative_structural_bias,No Filter,22,0.03829897,0.03024168,0.00000000
+noncommutative_structural_bias,Weight-only,22,0.07298608,0.03024168,0.00000000
+noncommutative_structural_bias,Set-Aware,22,0.08752489,0.05567035,0.00000000
+noncommutative_structural_bias,Our method,22,0.09701251,0.03499310,-0.02144354
+noncommutative_structural_bias,No Filter,23,0.03848088,0.04463849,0.00000000
+noncommutative_structural_bias,Weight-only,23,0.09767683,0.04463849,0.00000000
+noncommutative_structural_bias,Set-Aware,23,0.10075895,0.05275099,0.00000000
+noncommutative_structural_bias,Our method,23,0.10261540,0.03581562,-0.02332462
+noncommutative_structural_bias,No Filter,24,0.03865765,0.06202966,0.00000000
+noncommutative_structural_bias,Weight-only,24,0.11896231,0.06202966,0.00000000
+noncommutative_structural_bias,Set-Aware,24,0.11271038,0.04929511,0.00000000
+noncommutative_structural_bias,Our method,24,0.10681647,0.03685846,-0.02450040
+noncommutative_structural_bias,No Filter,25,0.03881945,0.06931805,0.00000000
+noncommutative_structural_bias,Weight-only,25,0.12757768,0.06931805,0.00000000
+noncommutative_structural_bias,Set-Aware,25,0.11545492,0.04761678,0.00000000
+noncommutative_structural_bias,Our method,25,0.10387306,0.03734626,-0.02240490
+noncommutative_structural_bias,No Filter,26,0.03896232,0.06569831,0.00000000
+noncommutative_structural_bias,Weight-only,26,0.12218995,0.06569831,0.00000000
+noncommutative_structural_bias,Set-Aware,26,0.10736475,0.04633108,0.00000000
+noncommutative_structural_bias,Our method,26,0.09366998,0.03693565,-0.01790864
+noncommutative_structural_bias,No Filter,27,0.03908552,0.06577528,0.00000000
+noncommutative_structural_bias,Weight-only,27,0.11690351,0.06577528,0.00000000
+noncommutative_structural_bias,Set-Aware,27,0.10166258,0.04371427,0.00000000
+noncommutative_structural_bias,Our method,27,0.08656518,0.03516568,-0.01526330
+noncommutative_structural_bias,No Filter,28,0.03918998,0.06856837,0.00000000
+noncommutative_structural_bias,Weight-only,28,0.11222880,0.06856837,0.00000000
+noncommutative_structural_bias,Set-Aware,28,0.09823248,0.03990845,0.00000000
+noncommutative_structural_bias,Our method,28,0.08330294,0.03233995,-0.01443791
+small_sample_structural_bias,No Filter,1,0.26240967,0.08138974,0.00000000
+small_sample_structural_bias,Weight-only,1,0.27377093,0.08138974,0.00000000
+small_sample_structural_bias,Set-Aware,1,0.27377093,0.21106672,0.00000000
+small_sample_structural_bias,Our method,1,0.27377093,0.07061859,-0.07809630
+small_sample_structural_bias,No Filter,2,0.25221623,0.08515152,0.00000000
+small_sample_structural_bias,Weight-only,2,0.23522334,0.08515152,0.00000000
+small_sample_structural_bias,Set-Aware,2,0.22938155,0.19235689,0.00000000
+small_sample_structural_bias,Our method,2,0.23220499,0.06909221,-0.07328552
+small_sample_structural_bias,No Filter,3,0.23483534,0.07996685,0.00000000
+small_sample_structural_bias,Weight-only,3,0.20058906,0.07996685,0.00000000
+small_sample_structural_bias,Set-Aware,3,0.19668051,0.16643548,0.00000000
+small_sample_structural_bias,Our method,3,0.20009530,0.07018031,-0.06964886
+small_sample_structural_bias,No Filter,4,0.21273988,0.09437501,0.00000000
+small_sample_structural_bias,Weight-only,4,0.14145324,0.09437501,0.00000000
+small_sample_structural_bias,Set-Aware,4,0.14167513,0.13955037,0.00000000
+small_sample_structural_bias,Our method,4,0.14059706,0.07586765,-0.07624867
+small_sample_structural_bias,No Filter,5,0.18821316,0.10663218,0.00000000
+small_sample_structural_bias,Weight-only,5,0.07898222,0.10663218,0.00000000
+small_sample_structural_bias,Set-Aware,5,0.08662758,0.11170979,0.00000000
+small_sample_structural_bias,Our method,5,0.07891371,0.08142508,-0.08411645
+small_sample_structural_bias,No Filter,6,0.16310439,0.11248473,0.00000000
+small_sample_structural_bias,Weight-only,6,0.03886619,0.11248473,0.00000000
+small_sample_structural_bias,Set-Aware,6,0.05026397,0.08389923,0.00000000
+small_sample_structural_bias,Our method,6,0.03507415,0.08071147,-0.08773625
+small_sample_structural_bias,No Filter,7,0.13879899,0.10596842,0.00000000
+small_sample_structural_bias,Weight-only,7,0.02350149,0.10596842,0.00000000
+small_sample_structural_bias,Set-Aware,7,0.03293080,0.06319965,0.00000000
+small_sample_structural_bias,Our method,7,0.01242425,0.07179979,-0.08136891
+small_sample_structural_bias,No Filter,8,0.11626926,0.07050709,0.00000000
+small_sample_structural_bias,Weight-only,8,0.00857457,0.07050709,0.00000000
+small_sample_structural_bias,Set-Aware,8,0.05824717,0.05374617,0.00000000
+small_sample_structural_bias,Our method,8,0.02224485,0.05860931,-0.06790086
+small_sample_structural_bias,No Filter,9,0.09615173,0.06236878,0.00000000
+small_sample_structural_bias,Weight-only,9,0.01542533,0.06236878,0.00000000
+small_sample_structural_bias,Set-Aware,9,0.06579069,0.04768888,0.00000000
+small_sample_structural_bias,Our method,9,0.02739967,0.05196685,-0.06189040
+small_sample_structural_bias,No Filter,10,0.07882787,0.07744085,0.00000000
+small_sample_structural_bias,Weight-only,10,0.01346786,0.07744085,0.00000000
+small_sample_structural_bias,Set-Aware,10,0.03753693,0.04087031,0.00000000
+small_sample_structural_bias,Our method,10,0.00765968,0.05135922,-0.06209417
+small_sample_structural_bias,No Filter,11,0.06449463,0.07449927,0.00000000
+small_sample_structural_bias,Weight-only,11,0.02942586,0.07449927,0.00000000
+small_sample_structural_bias,Set-Aware,11,0.01213945,0.03201579,0.00000000
+small_sample_structural_bias,Our method,11,0.01707706,0.04805766,-0.05792636
+small_sample_structural_bias,No Filter,12,0.05321170,0.05945947,0.00000000
+small_sample_structural_bias,Weight-only,12,0.04248927,0.05945947,0.00000000
+small_sample_structural_bias,Set-Aware,12,0.02908176,0.02097651,0.00000000
+small_sample_structural_bias,Our method,12,0.03489347,0.04265173,-0.04946698
+small_sample_structural_bias,No Filter,13,0.04490894,0.07922016,0.00000000
+small_sample_structural_bias,Weight-only,13,0.06319456,0.07922016,0.00000000
+small_sample_structural_bias,Set-Aware,13,0.04361887,0.01434924,0.00000000
+small_sample_structural_bias,Our method,13,0.06413921,0.04259336,-0.04861616
+small_sample_structural_bias,No Filter,14,0.03934925,0.08186591,0.00000000
+small_sample_structural_bias,Weight-only,14,0.06548753,0.08186591,0.00000000
+small_sample_structural_bias,Set-Aware,14,0.04986575,0.01587340,0.00000000
+small_sample_structural_bias,Our method,14,0.07677622,0.04203255,-0.04578587
+small_sample_structural_bias,No Filter,15,0.03609121,0.11287668,0.00000000
+small_sample_structural_bias,Weight-only,15,0.07063061,0.11287668,0.00000000
+small_sample_structural_bias,Set-Aware,15,0.05463855,0.02330867,0.00000000
+small_sample_structural_bias,Our method,15,0.09445320,0.04660426,-0.05306627
+small_sample_structural_bias,No Filter,16,0.03453741,0.13294002,0.00000000
+small_sample_structural_bias,Weight-only,16,0.10094634,0.13294002,0.00000000
+small_sample_structural_bias,Set-Aware,16,0.09234191,0.03935387,0.00000000
+small_sample_structural_bias,Our method,16,0.12667717,0.05627543,-0.06150872
+small_sample_structural_bias,No Filter,17,0.03407845,0.11999645,0.00000000
+small_sample_structural_bias,Weight-only,17,0.10029268,0.11999645,0.00000000
+small_sample_structural_bias,Set-Aware,17,0.10468675,0.05970450,0.00000000
+small_sample_structural_bias,Our method,17,0.13129024,0.06402881,-0.06068850
+small_sample_structural_bias,No Filter,18,0.03422543,0.08676797,0.00000000
+small_sample_structural_bias,Weight-only,18,0.08212418,0.08676797,0.00000000
+small_sample_structural_bias,Set-Aware,18,0.10204686,0.06909870,0.00000000
+small_sample_structural_bias,Our method,18,0.12056907,0.06801671,-0.05454385
+small_sample_structural_bias,No Filter,19,0.03465259,0.06308258,0.00000000
+small_sample_structural_bias,Weight-only,19,0.08435741,0.06308258,0.00000000
+small_sample_structural_bias,Set-Aware,19,0.10882532,0.07424905,0.00000000
+small_sample_structural_bias,Our method,19,0.12209446,0.06816799,-0.04805618
+small_sample_structural_bias,No Filter,20,0.03517131,0.06207571,0.00000000
+small_sample_structural_bias,Weight-only,20,0.09302520,0.06207571,0.00000000
+small_sample_structural_bias,Set-Aware,20,0.11502773,0.07018436,0.00000000
+small_sample_structural_bias,Our method,20,0.13154617,0.06590278,-0.04395847
+small_sample_structural_bias,No Filter,21,0.03568483,0.07606760,0.00000000
+small_sample_structural_bias,Weight-only,21,0.07251381,0.07606760,0.00000000
+small_sample_structural_bias,Set-Aware,21,0.10581194,0.06896849,0.00000000
+small_sample_structural_bias,Our method,21,0.14257875,0.06203364,-0.04473680
+small_sample_structural_bias,No Filter,22,0.03615018,0.07157914,0.00000000
+small_sample_structural_bias,Weight-only,22,0.12605239,0.07157914,0.00000000
+small_sample_structural_bias,Set-Aware,22,0.13120234,0.07232367,0.00000000
+small_sample_structural_bias,Our method,22,0.14513632,0.05955760,-0.04686405
+small_sample_structural_bias,No Filter,23,0.03655299,0.11305182,0.00000000
+small_sample_structural_bias,Weight-only,23,0.19423560,0.11305182,0.00000000
+small_sample_structural_bias,Set-Aware,23,0.17691230,0.07665661,0.00000000
+small_sample_structural_bias,Our method,23,0.16664057,0.06088091,-0.05875268
+small_sample_structural_bias,No Filter,24,0.03689263,0.11266876,0.00000000
+small_sample_structural_bias,Weight-only,24,0.20894290,0.11266876,0.00000000
+small_sample_structural_bias,Set-Aware,24,0.17801517,0.08676868,0.00000000
+small_sample_structural_bias,Our method,24,0.15435496,0.05599574,-0.05316609
+small_sample_structural_bias,No Filter,25,0.03717425,0.12130861,0.00000000
+small_sample_structural_bias,Weight-only,25,0.22693080,0.12130861,0.00000000
+small_sample_structural_bias,Set-Aware,25,0.18840627,0.09835097,0.00000000
+small_sample_structural_bias,Our method,25,0.14267313,0.05127549,-0.04808044
+small_sample_structural_bias,No Filter,26,0.03740477,0.10916682,0.00000000
+small_sample_structural_bias,Weight-only,26,0.20955730,0.10916682,0.00000000
+small_sample_structural_bias,Set-Aware,26,0.17135313,0.09576124,0.00000000
+small_sample_structural_bias,Our method,26,0.11642067,0.04759353,-0.04273347
+small_sample_structural_bias,No Filter,27,0.03759119,0.09789087,0.00000000
+small_sample_structural_bias,Weight-only,27,0.17852981,0.09789087,0.00000000
+small_sample_structural_bias,Set-Aware,27,0.15012011,0.08225029,0.00000000
+small_sample_structural_bias,Our method,27,0.10263358,0.04521274,-0.03837337
+small_sample_structural_bias,No Filter,28,0.03773988,0.11584279,0.00000000
+small_sample_structural_bias,Weight-only,28,0.17562565,0.11584279,0.00000000
+small_sample_structural_bias,Set-Aware,28,0.15727742,0.06801306,0.00000000
+small_sample_structural_bias,Our method,28,0.10951547,0.04575449,-0.03907872

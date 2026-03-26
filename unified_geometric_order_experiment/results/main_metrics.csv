@@ -1,0 +1,417 @@
+scene,scene_title,method,generation,metric_l2
+fixed_additive_bias,固定加性偏置,No Filter,1,2.85248401
+fixed_additive_bias,固定加性偏置,Weight-only,1,2.82987764
+fixed_additive_bias,固定加性偏置,Set-Aware,1,2.60593213
+fixed_additive_bias,固定加性偏置,Our method,1,2.62738507
+fixed_additive_bias,固定加性偏置,No Filter,2,2.67146090
+fixed_additive_bias,固定加性偏置,Weight-only,2,2.63003889
+fixed_additive_bias,固定加性偏置,Set-Aware,2,2.21518636
+fixed_additive_bias,固定加性偏置,Our method,2,2.25330596
+fixed_additive_bias,固定加性偏置,No Filter,3,2.52019727
+fixed_additive_bias,固定加性偏置,Weight-only,3,2.46274044
+fixed_additive_bias,固定加性偏置,Set-Aware,3,1.88508407
+fixed_additive_bias,固定加性偏置,Our method,3,1.93636183
+fixed_additive_bias,固定加性偏置,No Filter,4,2.39326775
+fixed_additive_bias,固定加性偏置,Weight-only,4,2.32601054
+fixed_additive_bias,固定加性偏置,Set-Aware,4,1.60931936
+fixed_additive_bias,固定加性偏置,Our method,4,1.66914649
+fixed_additive_bias,固定加性偏置,No Filter,5,2.28631539
+fixed_additive_bias,固定加性偏置,Weight-only,5,2.21703978
+fixed_additive_bias,固定加性偏置,Set-Aware,5,1.38110826
+fixed_additive_bias,固定加性偏置,Our method,5,1.44506071
+fixed_additive_bias,固定加性偏置,No Filter,6,2.19583880
+fixed_additive_bias,固定加性偏置,Weight-only,6,2.13274057
+fixed_additive_bias,固定加性偏置,Set-Aware,6,1.19405024
+fixed_additive_bias,固定加性偏置,Our method,6,1.25752834
+fixed_additive_bias,固定加性偏置,No Filter,7,2.11901781
+fixed_additive_bias,固定加性偏置,Weight-only,7,2.06532464
+fixed_additive_bias,固定加性偏置,Set-Aware,7,1.03783943
+fixed_additive_bias,固定加性偏置,Our method,7,1.09964409
+fixed_additive_bias,固定加性偏置,No Filter,8,2.05357256
+fixed_additive_bias,固定加性偏置,Weight-only,8,2.00922698
+fixed_additive_bias,固定加性偏置,Set-Aware,8,0.90466352
+fixed_additive_bias,固定加性偏置,Our method,8,0.96571606
+fixed_additive_bias,固定加性偏置,No Filter,9,1.99765112
+fixed_additive_bias,固定加性偏置,Weight-only,9,1.95952471
+fixed_additive_bias,固定加性偏置,Set-Aware,9,0.78851565
+fixed_additive_bias,固定加性偏置,Our method,9,0.85118062
+fixed_additive_bias,固定加性偏置,No Filter,10,1.94974078
+fixed_additive_bias,固定加性偏置,Weight-only,10,1.91648965
+fixed_additive_bias,固定加性偏置,Set-Aware,10,0.68837805
+fixed_additive_bias,固定加性偏置,Our method,10,0.75257451
+fixed_additive_bias,固定加性偏置,No Filter,11,1.90859846
+fixed_additive_bias,固定加性偏置,Weight-only,11,1.87900310
+fixed_additive_bias,固定加性偏置,Set-Aware,11,0.60257574
+fixed_additive_bias,固定加性偏置,Our method,11,0.66710573
+fixed_additive_bias,固定加性偏置,No Filter,12,1.87319644
+fixed_additive_bias,固定加性偏置,Weight-only,12,1.84703872
+fixed_additive_bias,固定加性偏置,Set-Aware,12,0.52886395
+fixed_additive_bias,固定加性偏置,Our method,12,0.59249750
+fixed_additive_bias,固定加性偏置,No Filter,13,1.84267995
+fixed_additive_bias,固定加性偏置,Weight-only,13,1.82410407
+fixed_additive_bias,固定加性偏置,Set-Aware,13,0.46826565
+fixed_additive_bias,固定加性偏置,Our method,13,0.52694170
+fixed_additive_bias,固定加性偏置,No Filter,14,1.81633413
+fixed_additive_bias,固定加性偏置,Weight-only,14,1.81338792
+fixed_additive_bias,固定加性偏置,Set-Aware,14,0.42366582
+fixed_additive_bias,固定加性偏置,Our method,14,0.46921100
+fixed_additive_bias,固定加性偏置,No Filter,15,1.79355812
+fixed_additive_bias,固定加性偏置,Weight-only,15,1.80974802
+fixed_additive_bias,固定加性偏置,Set-Aware,15,0.39016636
+fixed_additive_bias,固定加性偏置,Our method,15,0.41830568
+fixed_additive_bias,固定加性偏置,No Filter,16,1.77384454
+fixed_additive_bias,固定加性偏置,Weight-only,16,1.81110302
+fixed_additive_bias,固定加性偏置,Set-Aware,16,0.36441656
+fixed_additive_bias,固定加性偏置,Our method,16,0.37364927
+fixed_additive_bias,固定加性偏置,No Filter,17,1.75676333
+fixed_additive_bias,固定加性偏置,Weight-only,17,1.81481620
+fixed_additive_bias,固定加性偏置,Set-Aware,17,0.34382457
+fixed_additive_bias,固定加性偏置,Our method,17,0.33474149
+fixed_additive_bias,固定加性偏置,No Filter,18,1.74194866
+fixed_additive_bias,固定加性偏置,Weight-only,18,1.82169854
+fixed_additive_bias,固定加性偏置,Set-Aware,18,0.32955536
+fixed_additive_bias,固定加性偏置,Our method,18,0.30092904
+fixed_additive_bias,固定加性偏置,No Filter,19,1.72908846
+fixed_additive_bias,固定加性偏置,Weight-only,19,1.82903250
+fixed_additive_bias,固定加性偏置,Set-Aware,19,0.32001284
+fixed_additive_bias,固定加性偏置,Our method,19,0.27155213
+fixed_additive_bias,固定加性偏置,No Filter,20,1.71791586
+fixed_additive_bias,固定加性偏置,Weight-only,20,1.83111239
+fixed_additive_bias,固定加性偏置,Set-Aware,20,0.31049359
+fixed_additive_bias,固定加性偏置,Our method,20,0.24601643
+fixed_additive_bias,固定加性偏置,No Filter,21,1.70820213
+fixed_additive_bias,固定加性偏置,Weight-only,21,1.82952449
+fixed_additive_bias,固定加性偏置,Set-Aware,21,0.30259894
+fixed_additive_bias,固定加性偏置,Our method,21,0.22375430
+fixed_additive_bias,固定加性偏置,No Filter,22,1.69975087
+fixed_additive_bias,固定加性偏置,Weight-only,22,1.81873889
+fixed_additive_bias,固定加性偏置,Set-Aware,22,0.29285899
+fixed_additive_bias,固定加性偏置,Our method,22,0.20411056
+fixed_additive_bias,固定加性偏置,No Filter,23,1.69239319
+fixed_additive_bias,固定加性偏置,Weight-only,23,1.80085155
+fixed_additive_bias,固定加性偏置,Set-Aware,23,0.28472255
+fixed_additive_bias,固定加性偏置,Our method,23,0.18665763
+fixed_additive_bias,固定加性偏置,No Filter,24,1.68598363
+fixed_additive_bias,固定加性偏置,Weight-only,24,1.77840242
+fixed_additive_bias,固定加性偏置,Set-Aware,24,0.27926231
+fixed_additive_bias,固定加性偏置,Our method,24,0.17114112
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,1,2.45115227
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,1,2.42932016
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,1,2.55256578
+anisotropic_shrinkage,各向异性 shrinkage,Our method,1,2.54451146
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,2,2.29142936
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,2,2.25760978
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,2,2.24636966
+anisotropic_shrinkage,各向异性 shrinkage,Our method,2,2.21246593
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,3,2.29891001
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,3,2.25940659
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,3,1.99211730
+anisotropic_shrinkage,各向异性 shrinkage,Our method,3,1.92135548
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,4,2.38782970
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,4,2.35679318
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,4,1.78334763
+anisotropic_shrinkage,各向异性 shrinkage,Our method,4,1.66848455
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,5,2.51697130
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,5,2.50972055
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,5,1.61176477
+anisotropic_shrinkage,各向异性 shrinkage,Our method,5,1.45339471
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,6,2.66841652
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,6,2.69890374
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,6,1.46977382
+anisotropic_shrinkage,各向异性 shrinkage,Our method,6,1.27276291
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,7,2.83470244
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,7,2.89940883
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,7,1.34003125
+anisotropic_shrinkage,各向异性 shrinkage,Our method,7,1.11896983
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,8,3.01281888
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,8,3.10510451
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,8,1.22301521
+anisotropic_shrinkage,各向异性 shrinkage,Our method,8,0.98627967
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,9,3.20165485
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,9,3.32261267
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,9,1.12071065
+anisotropic_shrinkage,各向异性 shrinkage,Our method,9,0.87057239
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,10,3.40093713
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,10,3.54970184
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,10,1.02667821
+anisotropic_shrinkage,各向异性 shrinkage,Our method,10,0.76920648
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,11,3.61078447
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,11,3.78694067
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,11,0.93648860
+anisotropic_shrinkage,各向异性 shrinkage,Our method,11,0.68020848
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,12,3.83151495
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,12,4.03547378
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,12,0.84547084
+anisotropic_shrinkage,各向异性 shrinkage,Our method,12,0.60173123
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,13,4.06355959
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,13,4.29714682
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,13,0.75663087
+anisotropic_shrinkage,各向异性 shrinkage,Our method,13,0.53206123
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,14,4.30742191
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,14,4.58204881
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,14,0.68153967
+anisotropic_shrinkage,各向异性 shrinkage,Our method,14,0.47039898
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,15,4.56365857
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,15,4.89285252
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,15,0.62460888
+anisotropic_shrinkage,各向异性 shrinkage,Our method,15,0.41629204
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,16,4.83286986
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,16,5.21932723
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,16,0.57864327
+anisotropic_shrinkage,各向异性 shrinkage,Our method,16,0.36960394
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,17,5.11569533
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,17,5.56056287
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,17,0.53451301
+anisotropic_shrinkage,各向异性 shrinkage,Our method,17,0.33007789
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,18,5.41281204
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,18,5.91570630
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,18,0.48866889
+anisotropic_shrinkage,各向异性 shrinkage,Our method,18,0.29663667
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,19,5.72493432
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,19,6.28414291
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,19,0.44210636
+anisotropic_shrinkage,各向异性 shrinkage,Our method,19,0.26799750
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,20,6.05281443
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,20,6.65101402
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,20,0.38697436
+anisotropic_shrinkage,各向异性 shrinkage,Our method,20,0.24271035
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,21,6.39724370
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,21,7.02110234
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,21,0.32937925
+anisotropic_shrinkage,各向异性 shrinkage,Our method,21,0.21981326
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,22,6.75905412
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,22,7.38788611
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,22,0.27115854
+anisotropic_shrinkage,各向异性 shrinkage,Our method,22,0.19847374
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,23,7.13912005
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,23,7.75693093
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,23,0.22444529
+anisotropic_shrinkage,各向异性 shrinkage,Our method,23,0.17870133
+anisotropic_shrinkage,各向异性 shrinkage,No Filter,24,7.53836027
+anisotropic_shrinkage,各向异性 shrinkage,Weight-only,24,8.13271671
+anisotropic_shrinkage,各向异性 shrinkage,Set-Aware,24,0.20407596
+anisotropic_shrinkage,各向异性 shrinkage,Our method,24,0.16066675
+noncommutative_structural_bias,非交换结构偏置,No Filter,1,2.29483850
+noncommutative_structural_bias,非交换结构偏置,Weight-only,1,2.27616095
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,1,2.44275284
+noncommutative_structural_bias,非交换结构偏置,Our method,1,2.43685021
+noncommutative_structural_bias,非交换结构偏置,No Filter,2,1.88328575
+noncommutative_structural_bias,非交换结构偏置,Weight-only,2,1.85769959
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,2,2.16229781
+noncommutative_structural_bias,非交换结构偏置,Our method,2,2.13786184
+noncommutative_structural_bias,非交换结构偏置,No Filter,3,1.54210185
+noncommutative_structural_bias,非交换结构偏置,Weight-only,3,1.51279127
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,3,1.92632356
+noncommutative_structural_bias,非交换结构偏置,Our method,3,1.87354147
+noncommutative_structural_bias,非交换结构偏置,No Filter,4,1.26503921
+noncommutative_structural_bias,非交换结构偏置,Weight-only,4,1.23381108
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,4,1.72920872
+noncommutative_structural_bias,非交换结构偏置,Our method,4,1.63932893
+noncommutative_structural_bias,非交换结构偏置,No Filter,5,1.04530593
+noncommutative_structural_bias,非交换结构偏置,Weight-only,5,1.01558528
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,5,1.56947278
+noncommutative_structural_bias,非交换结构偏置,Our method,5,1.43499642
+noncommutative_structural_bias,非交换结构偏置,No Filter,6,0.87569467
+noncommutative_structural_bias,非交换结构偏置,Weight-only,6,0.85321222
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,6,1.44372919
+noncommutative_structural_bias,非交换结构偏置,Our method,6,1.26040516
+noncommutative_structural_bias,非交换结构偏置,No Filter,7,0.74858799
+noncommutative_structural_bias,非交换结构偏置,Weight-only,7,0.73226373
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,7,1.33258940
+noncommutative_structural_bias,非交换结构偏置,Our method,7,1.11156872
+noncommutative_structural_bias,非交换结构偏置,No Filter,8,0.65603116
+noncommutative_structural_bias,非交换结构偏置,Weight-only,8,0.63551295
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,8,1.22736051
+noncommutative_structural_bias,非交换结构偏置,Our method,8,0.98476844
+noncommutative_structural_bias,非交换结构偏置,No Filter,9,0.59007536
+noncommutative_structural_bias,非交换结构偏置,Weight-only,9,0.56173702
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,9,1.12948409
+noncommutative_structural_bias,非交换结构偏置,Our method,9,0.87660905
+noncommutative_structural_bias,非交换结构偏置,No Filter,10,0.54339249
+noncommutative_structural_bias,非交换结构偏置,Weight-only,10,0.50656339
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,10,1.04289200
+noncommutative_structural_bias,非交换结构偏置,Our method,10,0.78389904
+noncommutative_structural_bias,非交换结构偏置,No Filter,11,0.50988684
+noncommutative_structural_bias,非交换结构偏置,Weight-only,11,0.47186100
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,11,0.97298390
+noncommutative_structural_bias,非交换结构偏置,Our method,11,0.70406813
+noncommutative_structural_bias,非交换结构偏置,No Filter,12,0.48499983
+noncommutative_structural_bias,非交换结构偏置,Weight-only,12,0.44882263
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,12,0.91574616
+noncommutative_structural_bias,非交换结构偏置,Our method,12,0.63416523
+noncommutative_structural_bias,非交换结构偏置,No Filter,13,0.46564055
+noncommutative_structural_bias,非交换结构偏置,Weight-only,13,0.43258422
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,13,0.86722738
+noncommutative_structural_bias,非交换结构偏置,Our method,13,0.57204520
+noncommutative_structural_bias,非交换结构偏置,No Filter,14,0.44988593
+noncommutative_structural_bias,非交换结构偏置,Weight-only,14,0.42068972
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,14,0.82100992
+noncommutative_structural_bias,非交换结构偏置,Our method,14,0.51601143
+noncommutative_structural_bias,非交换结构偏置,No Filter,15,0.43662627
+noncommutative_structural_bias,非交换结构偏置,Weight-only,15,0.41594787
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,15,0.78174842
+noncommutative_structural_bias,非交换结构偏置,Our method,15,0.46506965
+noncommutative_structural_bias,非交换结构偏置,No Filter,16,0.42526063
+noncommutative_structural_bias,非交换结构偏置,Weight-only,16,0.41785937
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,16,0.74740977
+noncommutative_structural_bias,非交换结构偏置,Our method,16,0.41867451
+noncommutative_structural_bias,非交换结构偏置,No Filter,17,0.41547507
+noncommutative_structural_bias,非交换结构偏置,Weight-only,17,0.43095522
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,17,0.72193145
+noncommutative_structural_bias,非交换结构偏置,Our method,17,0.37727755
+noncommutative_structural_bias,非交换结构偏置,No Filter,18,0.40709805
+noncommutative_structural_bias,非交换结构偏置,Weight-only,18,0.45241901
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,18,0.70523927
+noncommutative_structural_bias,非交换结构偏置,Our method,18,0.34127527
+noncommutative_structural_bias,非交换结构偏置,No Filter,19,0.40001514
+noncommutative_structural_bias,非交换结构偏置,Weight-only,19,0.47553623
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,19,0.68788595
+noncommutative_structural_bias,非交换结构偏置,Our method,19,0.31052731
+noncommutative_structural_bias,非交换结构偏置,No Filter,20,0.39412438
+noncommutative_structural_bias,非交换结构偏置,Weight-only,20,0.49260843
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,20,0.65887294
+noncommutative_structural_bias,非交换结构偏置,Our method,20,0.28425877
+noncommutative_structural_bias,非交换结构偏置,No Filter,21,0.38931751
+noncommutative_structural_bias,非交换结构偏置,Weight-only,21,0.49958176
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,21,0.62007349
+noncommutative_structural_bias,非交换结构偏置,Our method,21,0.26141356
+noncommutative_structural_bias,非交换结构偏置,No Filter,22,0.38547587
+noncommutative_structural_bias,非交换结构偏置,Weight-only,22,0.50265141
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,22,0.57588671
+noncommutative_structural_bias,非交换结构偏置,Our method,22,0.24101147
+noncommutative_structural_bias,非交换结构偏置,No Filter,23,0.38247387
+noncommutative_structural_bias,非交换结构偏置,Weight-only,23,0.50861760
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,23,0.52563831
+noncommutative_structural_bias,非交换结构偏置,Our method,23,0.22221335
+noncommutative_structural_bias,非交换结构偏置,No Filter,24,0.38018491
+noncommutative_structural_bias,非交换结构偏置,Weight-only,24,0.52103991
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,24,0.47562373
+noncommutative_structural_bias,非交换结构偏置,Our method,24,0.20471736
+noncommutative_structural_bias,非交换结构偏置,No Filter,25,0.37848743
+noncommutative_structural_bias,非交换结构偏置,Weight-only,25,0.53835565
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,25,0.43237443
+noncommutative_structural_bias,非交换结构偏置,Our method,25,0.18857087
+noncommutative_structural_bias,非交换结构偏置,No Filter,26,0.37726945
+noncommutative_structural_bias,非交换结构偏置,Weight-only,26,0.55379512
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,26,0.39641513
+noncommutative_structural_bias,非交换结构偏置,Our method,26,0.17395759
+noncommutative_structural_bias,非交换结构偏置,No Filter,27,0.37643155
+noncommutative_structural_bias,非交换结构偏置,Weight-only,27,0.56826721
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,27,0.36602096
+noncommutative_structural_bias,非交换结构偏置,Our method,27,0.16091709
+noncommutative_structural_bias,非交换结构偏置,No Filter,28,0.37588811
+noncommutative_structural_bias,非交换结构偏置,Weight-only,28,0.58314774
+noncommutative_structural_bias,非交换结构偏置,Set-Aware,28,0.34333088
+noncommutative_structural_bias,非交换结构偏置,Our method,28,0.14948699
+small_sample_structural_bias,小样本结构偏置,No Filter,1,2.16641365
+small_sample_structural_bias,小样本结构偏置,Weight-only,1,2.11819019
+small_sample_structural_bias,小样本结构偏置,Set-Aware,1,2.29903673
+small_sample_structural_bias,小样本结构偏置,Our method,1,2.24061205
+small_sample_structural_bias,小样本结构偏置,No Filter,2,1.76028356
+small_sample_structural_bias,小样本结构偏置,Weight-only,2,1.69003640
+small_sample_structural_bias,小样本结构偏置,Set-Aware,2,2.02036867
+small_sample_structural_bias,小样本结构偏置,Our method,2,1.90491351
+small_sample_structural_bias,小样本结构偏置,No Filter,3,1.42142791
+small_sample_structural_bias,小样本结构偏置,Weight-only,3,1.34207323
+small_sample_structural_bias,小样本结构偏置,Set-Aware,3,1.78206820
+small_sample_structural_bias,小样本结构偏置,Our method,3,1.61855549
+small_sample_structural_bias,小样本结构偏置,No Filter,4,1.14824166
+small_sample_structural_bias,小样本结构偏置,Weight-only,4,1.08184517
+small_sample_structural_bias,小样本结构偏置,Set-Aware,4,1.59856274
+small_sample_structural_bias,小样本结构偏置,Our method,4,1.37965527
+small_sample_structural_bias,小样本结构偏置,No Filter,5,0.93655726
+small_sample_structural_bias,小样本结构偏置,Weight-only,5,0.90776028
+small_sample_structural_bias,小样本结构偏置,Set-Aware,5,1.46415056
+small_sample_structural_bias,小样本结构偏置,Our method,5,1.18600367
+small_sample_structural_bias,小样本结构偏置,No Filter,6,0.77984471
+small_sample_structural_bias,小样本结构偏置,Weight-only,6,0.79742403
+small_sample_structural_bias,小样本结构偏置,Set-Aware,6,1.35444223
+small_sample_structural_bias,小样本结构偏置,Our method,6,1.03239188
+small_sample_structural_bias,小样本结构偏置,No Filter,7,0.66925325
+small_sample_structural_bias,小样本结构偏置,Weight-only,7,0.72686097
+small_sample_structural_bias,小样本结构偏置,Set-Aware,7,1.25281916
+small_sample_structural_bias,小样本结构偏置,Our method,7,0.90866269
+small_sample_structural_bias,小样本结构偏置,No Filter,8,0.59417007
+small_sample_structural_bias,小样本结构偏置,Weight-only,8,0.65458670
+small_sample_structural_bias,小样本结构偏置,Set-Aware,8,1.13188037
+small_sample_structural_bias,小样本结构偏置,Our method,8,0.80318622
+small_sample_structural_bias,小样本结构偏置,No Filter,9,0.54372521
+small_sample_structural_bias,小样本结构偏置,Weight-only,9,0.58382019
+small_sample_structural_bias,小样本结构偏置,Set-Aware,9,1.00509312
+small_sample_structural_bias,小样本结构偏置,Our method,9,0.71063324
+small_sample_structural_bias,小样本结构偏置,No Filter,10,0.50862399
+small_sample_structural_bias,小样本结构偏置,Weight-only,10,0.53588505
+small_sample_structural_bias,小样本结构偏置,Set-Aware,10,0.90162309
+small_sample_structural_bias,小样本结构偏置,Our method,10,0.62952154
+small_sample_structural_bias,小样本结构偏置,No Filter,11,0.48221490
+small_sample_structural_bias,小样本结构偏置,Weight-only,11,0.51565138
+small_sample_structural_bias,小样本结构偏置,Set-Aware,11,0.82443338
+small_sample_structural_bias,小样本结构偏置,Our method,11,0.55969432
+small_sample_structural_bias,小样本结构偏置,No Filter,12,0.46046845
+small_sample_structural_bias,小样本结构偏置,Weight-only,12,0.51317796
+small_sample_structural_bias,小样本结构偏置,Set-Aware,12,0.76632939
+small_sample_structural_bias,小样本结构偏置,Our method,12,0.50039441
+small_sample_structural_bias,小样本结构偏置,No Filter,13,0.44133380
+small_sample_structural_bias,小样本结构偏置,Weight-only,13,0.53174234
+small_sample_structural_bias,小样本结构偏置,Set-Aware,13,0.73552127
+small_sample_structural_bias,小样本结构偏置,Our method,13,0.44986764
+small_sample_structural_bias,小样本结构偏置,No Filter,14,0.42400016
+small_sample_structural_bias,小样本结构偏置,Weight-only,14,0.55132405
+small_sample_structural_bias,小样本结构偏置,Set-Aware,14,0.71351680
+small_sample_structural_bias,小样本结构偏置,Our method,14,0.40600829
+small_sample_structural_bias,小样本结构偏置,No Filter,15,0.40831268
+small_sample_structural_bias,小样本结构偏置,Weight-only,15,0.56288979
+small_sample_structural_bias,小样本结构偏置,Set-Aware,15,0.69387406
+small_sample_structural_bias,小样本结构偏置,Our method,15,0.36569411
+small_sample_structural_bias,小样本结构偏置,No Filter,16,0.39438476
+small_sample_structural_bias,小样本结构偏置,Weight-only,16,0.60480139
+small_sample_structural_bias,小样本结构偏置,Set-Aware,16,0.69512537
+small_sample_structural_bias,小样本结构偏置,Our method,16,0.32793035
+small_sample_structural_bias,小样本结构偏置,No Filter,17,0.38237125
+small_sample_structural_bias,小样本结构偏置,Weight-only,17,0.64951536
+small_sample_structural_bias,小样本结构偏置,Set-Aware,17,0.69406176
+small_sample_structural_bias,小样本结构偏置,Our method,17,0.29330485
+small_sample_structural_bias,小样本结构偏置,No Filter,18,0.37235482
+small_sample_structural_bias,小样本结构偏置,Weight-only,18,0.67031180
+small_sample_structural_bias,小样本结构偏置,Set-Aware,18,0.67186697
+small_sample_structural_bias,小样本结构偏置,Our method,18,0.26326397
+small_sample_structural_bias,小样本结构偏置,No Filter,19,0.36430680
+small_sample_structural_bias,小样本结构偏置,Weight-only,19,0.67140729
+small_sample_structural_bias,小样本结构偏置,Set-Aware,19,0.63366446
+small_sample_structural_bias,小样本结构偏置,Our method,19,0.23903694
+small_sample_structural_bias,小样本结构偏置,No Filter,20,0.35809270
+small_sample_structural_bias,小样本结构偏置,Weight-only,20,0.66414260
+small_sample_structural_bias,小样本结构偏置,Set-Aware,20,0.60105847
+small_sample_structural_bias,小样本结构偏置,Our method,20,0.21991882
+small_sample_structural_bias,小样本结构偏置,No Filter,21,0.35350066
+small_sample_structural_bias,小样本结构偏置,Weight-only,21,0.65811107
+small_sample_structural_bias,小样本结构偏置,Set-Aware,21,0.59610331
+small_sample_structural_bias,小样本结构偏置,Our method,21,0.20459458
+small_sample_structural_bias,小样本结构偏置,No Filter,22,0.35027689
+small_sample_structural_bias,小样本结构偏置,Weight-only,22,0.64872516
+small_sample_structural_bias,小样本结构偏置,Set-Aware,22,0.57144732
+small_sample_structural_bias,小样本结构偏置,Our method,22,0.19175815
+small_sample_structural_bias,小样本结构偏置,No Filter,23,0.34815794
+small_sample_structural_bias,小样本结构偏置,Weight-only,23,0.65607309
+small_sample_structural_bias,小样本结构偏置,Set-Aware,23,0.53849999
+small_sample_structural_bias,小样本结构偏置,Our method,23,0.17983616
+small_sample_structural_bias,小样本结构偏置,No Filter,24,0.34689478
+small_sample_structural_bias,小样本结构偏置,Weight-only,24,0.67519173
+small_sample_structural_bias,小样本结构偏置,Set-Aware,24,0.51125156
+small_sample_structural_bias,小样本结构偏置,Our method,24,0.16804098
+small_sample_structural_bias,小样本结构偏置,No Filter,25,0.34626752
+small_sample_structural_bias,小样本结构偏置,Weight-only,25,0.71042850
+small_sample_structural_bias,小样本结构偏置,Set-Aware,25,0.47326900
+small_sample_structural_bias,小样本结构偏置,Our method,25,0.15582740
+small_sample_structural_bias,小样本结构偏置,No Filter,26,0.34609211
+small_sample_structural_bias,小样本结构偏置,Weight-only,26,0.74448382
+small_sample_structural_bias,小样本结构偏置,Set-Aware,26,0.43061296
+small_sample_structural_bias,小样本结构偏置,Our method,26,0.14384546
+small_sample_structural_bias,小样本结构偏置,No Filter,27,0.34622108
+small_sample_structural_bias,小样本结构偏置,Weight-only,27,0.77399502
+small_sample_structural_bias,小样本结构偏置,Set-Aware,27,0.39799031
+small_sample_structural_bias,小样本结构偏置,Our method,27,0.13364329
+small_sample_structural_bias,小样本结构偏置,No Filter,28,0.34654076
+small_sample_structural_bias,小样本结构偏置,Weight-only,28,0.81289839
+small_sample_structural_bias,小样本结构偏置,Set-Aware,28,0.38135336
+small_sample_structural_bias,小样本结构偏置,Our method,28,0.12435671

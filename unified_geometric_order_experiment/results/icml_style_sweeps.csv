@@ -1,0 +1,49 @@
+control_name,control_value,method,final_metric_l2
+beta,0.05000000,No Filter,0.53594561
+beta,0.05000000,Weight-only,0.63172209
+beta,0.05000000,Set-Aware,0.13293750
+beta,0.05000000,Our method,0.11846345
+beta,0.10000000,No Filter,0.97136190
+beta,0.10000000,Weight-only,1.06523790
+beta,0.10000000,Set-Aware,0.22799820
+beta,0.10000000,Our method,0.13443319
+beta,0.16000000,No Filter,1.49412161
+beta,0.16000000,Weight-only,1.58707608
+beta,0.16000000,Set-Aware,0.28611690
+beta,0.16000000,Our method,0.15366824
+beta,0.24000000,No Filter,2.19124251
+beta,0.24000000,Weight-only,2.28361976
+beta,0.24000000,Set-Aware,0.24559363
+beta,0.24000000,Our method,0.17939495
+beta,0.34000000,No Filter,3.06269867
+beta,0.34000000,Weight-only,3.15471141
+beta,0.34000000,Set-Aware,0.19638105
+beta,0.34000000,Our method,0.21163498
+beta,0.48000000,No Filter,4.28277312
+beta,0.48000000,Weight-only,4.37451874
+beta,0.48000000,Set-Aware,0.23632138
+beta,0.48000000,Our method,0.25686220
+alpha,0.05000000,No Filter,0.70474736
+alpha,0.05000000,Weight-only,0.79857574
+alpha,0.05000000,Set-Aware,0.36833705
+alpha,0.05000000,Our method,0.20230523
+alpha,0.10000000,No Filter,0.94915036
+alpha,0.10000000,Weight-only,1.07740858
+alpha,0.10000000,Set-Aware,0.30736460
+alpha,0.10000000,Our method,0.18727652
+alpha,0.18000000,No Filter,2.09558993
+alpha,0.18000000,Weight-only,2.34623072
+alpha,0.18000000,Set-Aware,0.34057456
+alpha,0.18000000,Our method,0.16933384
+alpha,0.28000000,No Filter,7.15613291
+alpha,0.28000000,Weight-only,7.73413108
+alpha,0.28000000,Set-Aware,0.23587842
+alpha,0.28000000,Our method,0.15640930
+alpha,0.40000000,No Filter,35.95498938
+alpha,0.40000000,Weight-only,37.42873642
+alpha,0.40000000,Set-Aware,0.13099592
+alpha,0.40000000,Our method,0.15275723
+alpha,0.55000000,No Filter,293.41972452
+alpha,0.55000000,Weight-only,298.60760269
+alpha,0.55000000,Set-Aware,0.25123279
+alpha,0.55000000,Our method,0.16256786

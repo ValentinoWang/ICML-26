@@ -1,0 +1,2 @@
+only_weight_mean,only_weight_std,only_correction_mean,only_correction_std,mlp_correction_mean,mlp_correction_std,ours_full_mean,ours_full_std
+0.238826,0.063585,0.137397,0.011233,0.537027,0.034221,0.137597,0.011277

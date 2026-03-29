@@ -1,0 +1,7 @@
+backbone,method,component,time_ms,std_ms,gpu_memory_mb,relative_overhead_pct
+ResNet-18,No Filter,Backbone,28.818,0.161,2793.5,0.00
+ResNet-18,Pointwise,MLP Filter,29.208,0.176,1651.6,1.35
+ResNet-18,Set-Aware,Transformer Filter,34.066,1.402,1826.3,18.21
+GPT-2,No Filter,Backbone,46.156,4.714,2397.8,0.00
+GPT-2,Pointwise,MLP Filter,48.260,4.612,3602.4,4.56
+GPT-2,Set-Aware,Transformer Filter,58.089,4.172,4682.1,25.85

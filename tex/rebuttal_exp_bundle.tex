@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\title{ICML Rebuttal Experiment Bundle}
+\author{Anonymous Submission Artifact Index}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Purpose}
+This document indexes the curated experiment bundle placed under
+\texttt{Experiments/Rebuttal/rebuttal\_exp\_anonymous/}. The goal is to expose, in one anonymous location,
+the original scripts, frozen paper outputs, and rebuttal-only results that answer the main concerns
+raised by reviewers \texttt{5p9M}, \texttt{kzcn}, \texttt{GqZq}, and \texttt{Bg6X}.
+
+\paragraph{Sanitization note.}
+Machine-specific absolute paths and local launcher paths were replaced with relative or placeholder paths in this anonymous export.
+
+\section*{Directory Layout}
+\begin{itemize}[leftmargin=1.5em]
+\item \texttt{shared/rebuttal\_results/}: new results added specifically for rebuttal
+\item \texttt{shared/original\_scripts/}: original local experiment scripts from \texttt{Experiments/}
+\item \texttt{shared/frozen\_outputs/}: CSV/figure exports already materialized for the paper
+\item \texttt{reviewers/}: reviewer-specific lightweight folders with the most relevant artifacts
+\item \texttt{tex/rebuttal\_exp\_bundle.tex}: this overview document
+\end{itemize}
+
+\section*{Included Rebuttal Experiments}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{3.2cm} X}
+\toprule
+\textbf{Folder} & \textbf{Content} \\
+\midrule
+\texttt{results/summary/} & Cross-seed summaries for rebuttal CIFAR-10 and GPT-2 comparisons, including SAGE, direct clean mixing, direct fine-tuning, and batch-mean. \\
+\texttt{results/summary\_cleanval\_size/} & GPT-2 clean-validation-size ablation for \texttt{N\_val in \{50,100,500,1000\}}. \\
+\texttt{results/summary\_fraction\_sweep/} & CIFAR-10 fixed-budget synthetic-fraction sweep, used to quantify how much synthetic data can be mixed before worst-class degradation. \\
+\texttt{results/summary\_unsup\_surrogate/} & GPT-2 unsupervised surrogate experiment, used to answer whether a clean validation set is strictly required. \\
+\bottomrule
+\end{tabularx}
+
+\section*{Frozen Original Outputs}
+Some original experiments are preserved locally mainly as scripts, while the exact CSV/figure outputs used in
+the manuscript were already exported under \texttt{Paper/LaTEX/icml2026/Tables/} and
+\texttt{Paper/LaTEX/icml2026/Figures/}. To make reviewer verification easier, those frozen exports are copied here.
+
+\begin{itemize}[leftmargin=1.5em]
+\item High-dimensional results: \texttt{table\_exp5\_tail\_summary.csv}
+\item Architecture ablations: \texttt{table\_exp6\_*.csv}, \texttt{exp6\_trajs.png}
+\item MNIST recursive drift: \texttt{table\_exp8\_mnist\_tail.csv}, \texttt{exp8\_enhence.png}, \texttt{exp8\_mechanism\_viz.png}
+\item CIFAR-10 recursive self-training: \texttt{exp9\_seed*.csv}, \texttt{exp9\_cifar10\_hist\_small.png}
+\item Compute cost: \texttt{exp10\_time\_cost.csv}
+\item GPT-2 / Qwen: \texttt{exp11\_*} figures and \texttt{qwen2\_ppl\_traj.png}
+\end{itemize}
+
+\section*{Reviewer Mapping}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{1.8cm} X}
+\toprule
+\textbf{Reviewer} & \textbf{Main supporting artifacts} \\
+\midrule
+\texttt{5p9M} & \texttt{reviewers/5p9M/summary/}, \texttt{summary\_cleanval\_size/}, \texttt{summary\_fraction\_sweep/}, \texttt{summary\_unsup\_surrogate/}, \texttt{qwen\_mauve\_rebuttal\_note.md} \\
+\texttt{kzcn} & \texttt{reviewers/kzcn/epsilon\_bound\_note.md}, \texttt{summary\_cleanval\_size/}, \texttt{summary\_unsup\_surrogate/}, \texttt{exp10\_time\_cost.csv} \\
+\texttt{GqZq} & \texttt{reviewers/GqZq/summary/}, \texttt{summary\_fraction\_sweep/}, \texttt{exp9\_seed*.csv}, \texttt{qwen2\_ppl\_traj.png} \\
+\texttt{Bg6X} & \texttt{reviewers/Bg6X/epsilon\_bound\_note.md}, \texttt{summary/}, \texttt{summary\_unsup\_surrogate/}, \texttt{table\_exp5\_tail\_summary.csv}, \texttt{table\_exp6\_ridge\_tail\_summary.csv}, \texttt{qwen\_mauve\_rebuttal\_note.md} \\
+\bottomrule
+\end{tabularx}
+
+\section*{Scripts Included for Reproducibility}
+The bundle also includes the local scripts used for the original experiments:
+\texttt{exp5\_high\_dim\_scalability},
+\texttt{exp6\_arch\_ablation},
+\texttt{exp8\_mnist\_recursive},
+\texttt{exp9\_cifar10\_setaware},
+\texttt{exp10\_time\_cost},
+\texttt{exp11\_gpt2\_model},
+and \texttt{exp13\_Llama\_model}.
+
+\end{document}

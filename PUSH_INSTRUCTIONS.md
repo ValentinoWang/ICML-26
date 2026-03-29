@@ -24,8 +24,8 @@ This anonymous export is intended to be pushed from a brand-new git repository w
 ## Suggested command sequence
 
 ```bash
-cp -a rebuttal_exp_anonymous /path/to/new/location/rebuttal_exp_anonymous
-cd /path/to/new/location/rebuttal_exp_anonymous
+cp -a rebuttal_exp /path/to/new/location/rebuttal_exp
+cd /path/to/new/location/rebuttal_exp
 git init
 git config user.name "anonymous"
 git config user.email "anonymous"

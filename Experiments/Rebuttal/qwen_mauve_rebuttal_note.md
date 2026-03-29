@@ -27,8 +27,8 @@ We agree that, in the representative Qwen2-7B recursive run, Set-Aware does not 
 
 ### Evidence locations
 
-- Manuscript table: `Paper/LaTEX/icml2026/main.tex` lines 334-349
-- Appendix protocol text: `Paper/LaTEX/icml2026/main.tex` line 974
-- Qwen MAUVE evaluator: `Experiments/exp13_Llama_model/mauve_eval_qwen.py` lines 10-24 and 58-78
-- Qwen recursive pipeline: `Experiments/exp13_Llama_model/run_qwen_recursive.sh` lines 51-55 and 168-216
-- Fixed-prompt rerun script: `Experiments/exp13_Llama_model/run_mauve_g4_qwen_fixedprompts.sh` lines 4-7 and 45-144
+- Manuscript table: `/root/autodl-tmp/ICML/Paper/LaTEX/icml2026/main.tex` lines 334-349
+- Appendix protocol text: `/root/autodl-tmp/ICML/Paper/LaTEX/icml2026/main.tex` line 974
+- Qwen MAUVE evaluator: `/root/autodl-tmp/ICML/Experiments/exp13_Llama_model/mauve_eval_qwen.py` lines 10-24 and 58-78
+- Qwen recursive pipeline: `/root/autodl-tmp/ICML/Experiments/exp13_Llama_model/run_qwen_recursive.sh` lines 51-55 and 168-216
+- Fixed-prompt rerun script: `/root/autodl-tmp/ICML/Experiments/exp13_Llama_model/run_mauve_g4_qwen_fixedprompts.sh` lines 4-7 and 45-144

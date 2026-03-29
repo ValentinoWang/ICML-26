@@ -18,7 +18,7 @@ What is still missing is a finite-sample upper bound for `epsilon`.
 
 ### Safest way to extend the appendix
 
-Do **not** promise a sharp closed-form theorem unless all authors agree on the assumptions. The safe addition is a short proposition that decomposes
+Do **not** promise a sharp closed-form theorem unless all co-authors agree on the assumptions. The safe addition is a short proposition that decomposes
 
 \[
 \epsilon
@@ -122,9 +122,9 @@ O\!\left(
 
 This formalizes the intuitive claim that larger candidate sets improve bias estimation accuracy and tighten the steady-state radius.
 
-### Discussion with authors
+### Discussion with co-authors
 
-This is likely acceptable for the appendix because it is conservative and aligns with the current theory. What probably requires author agreement is only the exact level of formality:
+This is likely acceptable for the appendix because it is conservative and aligns with the current theory. What probably requires co-author agreement is only the exact level of formality:
 
 - `Minimal version`: one proposition plus proof sketch, no explicit complexity constant.
 - `Stronger version`: instantiate `\mathfrak C(\mathcal F_{\mathrm{ST}})` using a specific norm-bounded Set-Transformer class.
@@ -133,6 +133,6 @@ For rebuttal timing, the minimal version is the practical choice.
 
 ### Relevant manuscript locations
 
-- `Paper/LaTEX/icml2026/main.tex` lines 189-191
-- `Paper/LaTEX/icml2026/main.tex` lines 798-808
-- `Paper/LaTEX/icml2026/main.tex` lines 820-863
+- `/root/autodl-tmp/ICML/Paper/LaTEX/icml2026/main.tex` lines 189-191
+- `/root/autodl-tmp/ICML/Paper/LaTEX/icml2026/main.tex` lines 798-808
+- `/root/autodl-tmp/ICML/Paper/LaTEX/icml2026/main.tex` lines 820-863

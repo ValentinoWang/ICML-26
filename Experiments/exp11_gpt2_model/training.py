@@ -4,6 +4,7 @@ from typing import Dict, Sequence
 import numpy as np
 import torch
 from torch import nn
+import torch.nn.functional as F
 from torch.optim import AdamW
 from torch.utils.data import DataLoader
 from transformers import GPT2LMHeadModel, GPT2TokenizerFast, get_linear_schedule_with_warmup
@@ -24,6 +25,8 @@ def fine_tune(
     max_length: int,
     max_steps: int | None = None,
     progress_desc: str | None = None,
+    ref_model: GPT2LMHeadModel | None = None,
+    kl_coef: float = 0.0,
 ) -> GPT2LMHeadModel:
     # Ensure recognized loss setting to avoid warnings.
     if hasattr(model, "config"):
@@ -42,12 +45,36 @@ def fine_tune(
     for _ in range(epochs):
         for batch in loader:
             batch = {k: v.to(device) for k, v in batch.items()}
-            out = model(**batch, labels=batch["input_ids"])
-            loss = out.loss
-            loss.backward()
+            use_kl = ref_model is not None and float(kl_coef) > 0.0
+            micro_batch_size = min(int(batch["input_ids"].size(0)), 16 if use_kl else int(batch["input_ids"].size(0)))
+            total_batch = int(batch["input_ids"].size(0))
+            opt.zero_grad()
+            for start in range(0, total_batch, micro_batch_size):
+                end = min(start + micro_batch_size, total_batch)
+                micro = {k: v[start:end] for k, v in batch.items()}
+                out = model(**micro, labels=micro["input_ids"])
+                loss = out.loss
+                if use_kl:
+                    with torch.no_grad():
+                        ref_logits = ref_model(
+                            input_ids=micro["input_ids"],
+                            attention_mask=micro.get("attention_mask"),
+                        ).logits
+                    train_logits = out.logits[:, :-1, :].contiguous()
+                    ref_logits = ref_logits[:, :-1, :].contiguous()
+                    shift_mask = micro["attention_mask"][:, 1:].contiguous().to(train_logits.dtype)
+                    token_kl = F.kl_div(
+                        F.log_softmax(train_logits, dim=-1),
+                        F.softmax(ref_logits, dim=-1),
+                        reduction="none",
+                    ).sum(dim=-1)
+                    loss_kl = (token_kl * shift_mask).sum() / shift_mask.sum().clamp_min(1.0)
+                    loss = loss + float(kl_coef) * loss_kl
+                # Preserve the effective batch size while keeping the KL path memory-safe.
+                scale = float(end - start) / float(total_batch)
+                (loss * scale).backward()
             opt.step()
             sched.step()
-            opt.zero_grad()
             step += 1
             if pbar is not None:
                 pbar.update(1)
@@ -105,6 +132,7 @@ def eval_validation_ppl(
     device: torch.device,
     batch_size: int,
     max_eval: int,
+    progress_desc: str | None = None,
 ) -> float:
     if hasattr(model, "config") and not getattr(model.config, "loss_type", None):
         model.config.loss_type = "ForCausalLMLoss"
@@ -122,6 +150,10 @@ def eval_validation_ppl(
     stride = 512
     nlls: list[torch.Tensor] = []
     total_tokens = 0
+    pbar = None
+    if progress_desc is not None:
+        total_steps = math.ceil(seq_len / stride)
+        pbar = tqdm(total=total_steps, desc=progress_desc, position=2, leave=False)
     for i in range(0, seq_len, stride):
         begin_loc = max(i + stride - block_size, 0)
         end_loc = min(i + stride, seq_len)
@@ -136,6 +168,10 @@ def eval_validation_ppl(
             neg_log_likelihood = outputs.loss * trg_len
         nlls.append(neg_log_likelihood)
         total_tokens += int(trg_len)
+        if pbar is not None:
+            pbar.update(1)
+    if pbar is not None:
+        pbar.close()
     if total_tokens == 0:
         return float("inf")
     return float(math.exp(torch.stack(nlls).sum().item() / total_tokens))
